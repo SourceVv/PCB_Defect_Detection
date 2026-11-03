@@ -1,0 +1,17 @@
+# do {D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_full/fullframe.do}
+# vsim -wlf D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_full/fullframe.wlf -lib D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_full/modelsim_lib tb_roi_fullframe "+DATA_DIR=D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_full/vectors" 
+# Start time: 15:03:13 on Oct 31,2026
+# Loading sv_std.std
+# Loading D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_full/modelsim_lib.tb_roi_fullframe
+# Loading D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_full/modelsim_lib.axis_roi_threshold_stats
+# FRAME_START id=1 profile=latest17 roi_mode=0
+# FRAME_PASS id=1 input=1203175 output=1203175 bytes=4812700 white=1975978 pixels=4812700 roi_counts=17
+# FRAME_START id=2 profile=latest17 roi_mode=1
+# FRAME_PASS id=2 input=1203175 output=1203175 bytes=4812700 white=326860 pixels=4812700 roi_counts=17
+# FRAME_START id=3 profile=frozen16 roi_mode=1
+# FRAME_PASS id=3 input=1203175 output=1203175 bytes=4812700 white=314801 pixels=4812700 roi_counts=17
+# PASS: ROI_STATS_FULLFRAME frames=3 input_beats=3609525 output_beats=3609525 bytes=14438100 input_stalls=1131405 output_stalls=1212501 simultaneous=3356976 gaps=356141
+# ** Note: $finish    : D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/hardware/sim/tb_roi_fullframe.sv(118)
+#    Time: 50977001 ns  Iteration: 0  Instance: /tb_roi_fullframe
+# End time: 15:04:36 on Oct 31,2026, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 0

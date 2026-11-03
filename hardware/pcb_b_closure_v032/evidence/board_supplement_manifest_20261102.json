@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-02",
+  "hardware_operations": false,
+  "files": [
+    {
+      "path": "docs/B_三项人工收尾操作手册_20261102.md",
+      "bytes": 7711,
+      "sha256": "c4c2aeddc9837e99bd97b19ea2b26f02bb2c9ddea1ec18c537801903d9db1d6c"
+    },
+    {
+      "path": "docs/B_完成标准与剩余任务.md",
+      "bytes": 16751,
+      "sha256": "e8f5fb1a1c20eb16e6a6cef97c14eb337c7b1ffbc1264e6b1251b7e950c548a9"
+    },
+    {
+      "path": "docs/B_性能优化与收尾说明.md",
+      "bytes": 10706,
+      "sha256": "ba75281085a86a0fa65ab5265305ed6185ae7714b389768f490b19d95796598c"
+    },
+    {
+      "path": "docs/B_性能优化与收尾说明.pdf",
+      "bytes": 335145,
+      "sha256": "ab72100e59aef3fff443376e9430ec87e38e9102db80a69c1b5d856cc57b7395"
+    },
+    {
+      "path": "docs/B_报告章节_架构接口仿真资源与验收.md",
+      "bytes": 26628,
+      "sha256": "c9ce2b133bb6c462569d8385df4146c65ed6eea289268bd60386a6e4b77f5ab7"
+    },
+    {
+      "path": "docs/队友独立复现记录模板.md",
+      "bytes": 1604,
+      "sha256": "39796cadd8f2b8b682dad4ec596f6d09a09b62ef067cfcae254be983450650b7"
+    },
+    {
+      "path": "evidence/FINAL_RELEASE_VERIFICATION.json",
+      "bytes": 2341,
+      "sha256": "c3fa91496ae3481d2c2d62c6977f0f76afd39106c1d7d7e0906b458241bc330f"
+    },
+    {
+      "path": "evidence/PDF_LAYOUT_QA.json",
+      "bytes": 717,
+      "sha256": "8b92b35be692e3681317fb5bb458509243948f7234ed93570f06d957d724b514"
+    },
+    {
+      "path": "pc_reviews/independent_profile_audit.json",
+      "bytes": 3105,
+      "sha256": "5a26cf43fd930535a907207bea923ee98ed8d25a30dfab616340ca4a30edbea5"
+    },
+    {
+      "path": "pc_reviews/independent_stability_audit.json",
+      "bytes": 4133,
+      "sha256": "2fd115a0b01e71ea697a2139d47147ad0541bfdc5e38d56bb3ef0dcef97435cf"
+    },
+    {
+      "path": "pc_reviews/independent_validate_audit.json",
+      "bytes": 7766,
+      "sha256": "46654906ac33b3bbbcd46cd9f4ece8ed7ee2d1e1db3ad4a78fb6d8b4e2aefbe0"
+    },
+    {
+      "path": "software/B_收尾验收结果查看.ipynb",
+      "bytes": 6389,
+      "sha256": "3ac1f68cf7212c2b1e0ffb78427d44f68ad14c552f013222497940cfdb00e2e2"
+    },
+    {
+      "path": "software/final_roi_api.py",
+      "bytes": 2035,
+      "sha256": "f26baeb853e2b3331178c86e2b299569afe10e85fa8a8837c1b038115745d9b7"
+    },
+    {
+      "path": "tools/README_PC独立审计.md",
+      "bytes": 5814,
+      "sha256": "f618019fcff74f4e0e367e4cb881fafd169c5b7b574689121edcdb9abbae57f1"
+    },
+    {
+      "path": "tools/verify_closure_results.py",
+      "bytes": 30266,
+      "sha256": "76c3e79d7b04d213208174f6671ea920deec6b3ae2178569bfa7782983341a00"
+    }
+  ]
+}

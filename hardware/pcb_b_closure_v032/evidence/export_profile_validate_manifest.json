@@ -1,0 +1,84 @@
+{
+  "schema": "pcb-b-closure-evidence-export/0.3.2",
+  "created_utc": "2025-05-04T08:04:51.236339+00:00",
+  "package": "pcb_b_closure_v032",
+  "selected_runs": [
+    {
+      "name": "profile_run_20261101_32a10001",
+      "kind": "profile_run",
+      "run_id": "20261101_32a10001",
+      "report_file": "evidence/profile_run_20261101_32a10001/profile_report.json",
+      "report_sha256": "7a44d910c4b098b7dbecac94f8d2f5b3542b7099f2ff2aa8daa43d7ce2708694",
+      "state": "complete",
+      "source_passed": true
+    },
+    {
+      "name": "closure_validate_20261101_32b20001",
+      "kind": "closure_validate",
+      "run_id": "20261101_32b20001",
+      "report_file": "evidence/closure_validate_20261101_32b20001/report.json",
+      "report_sha256": "8d32b13c080c4592b4d68c7bc2cd06a90109ebae691d8bc163aaf4bf33d9eaea",
+      "state": "complete",
+      "source_passed": true
+    }
+  ],
+  "files": [
+    {
+      "path": "pcb_b_closure_v032/NEW_PACKAGE_MANIFEST.json",
+      "bytes": 1066,
+      "sha256": "f0d7adae6fd87dc900341fec582a174f8fd3f18248a53990ac8669023892ddb0"
+    },
+    {
+      "path": "pcb_b_closure_v032/evidence/closure_validate_20261101_32b20001/first_measured_cpu_mask.bin",
+      "bytes": 4812700,
+      "sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be"
+    },
+    {
+      "path": "pcb_b_closure_v032/evidence/closure_validate_20261101_32b20001/first_measured_new_mask.bin",
+      "bytes": 4812700,
+      "sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be"
+    },
+    {
+      "path": "pcb_b_closure_v032/evidence/closure_validate_20261101_32b20001/first_measured_old_mask.bin",
+      "bytes": 4812700,
+      "sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be"
+    },
+    {
+      "path": "pcb_b_closure_v032/evidence/closure_validate_20261101_32b20001/last_measured_cpu_mask.bin",
+      "bytes": 4812700,
+      "sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be"
+    },
+    {
+      "path": "pcb_b_closure_v032/evidence/closure_validate_20261101_32b20001/last_measured_new_mask.bin",
+      "bytes": 4812700,
+      "sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be"
+    },
+    {
+      "path": "pcb_b_closure_v032/evidence/closure_validate_20261101_32b20001/last_measured_old_mask.bin",
+      "bytes": 4812700,
+      "sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be"
+    },
+    {
+      "path": "pcb_b_closure_v032/evidence/closure_validate_20261101_32b20001/records.jsonl",
+      "bytes": 182039,
+      "sha256": "fccc57958107076f1f6ce7db28e08724643b2d9571e2dcc2722b710d8abb9dbe"
+    },
+    {
+      "path": "pcb_b_closure_v032/evidence/closure_validate_20261101_32b20001/report.json",
+      "bytes": 316767,
+      "sha256": "8d32b13c080c4592b4d68c7bc2cd06a90109ebae691d8bc163aaf4bf33d9eaea"
+    },
+    {
+      "path": "pcb_b_closure_v032/evidence/profile_run_20261101_32a10001/profile_report.json",
+      "bytes": 21846,
+      "sha256": "7a44d910c4b098b7dbecac94f8d2f5b3542b7099f2ff2aa8daa43d7ce2708694"
+    }
+  ],
+  "file_count": 10,
+  "total_uncompressed_source_bytes": 29397918,
+  "root_manifest_sha256": "f0d7adae6fd87dc900341fec582a174f8fd3f18248a53990ac8669023892ddb0",
+  "compression": "ZIP_DEFLATED level 1",
+  "exporter_source_sha256": "86aaa6c3fef0a66a78f9760dcf8fdbd6a26f2420fb4525fe39f3cedbc92bf31b",
+  "hardware_accessed_by_exporter": false,
+  "scope": "Read-only export of named completed source runs; independent PC audit still required"
+}

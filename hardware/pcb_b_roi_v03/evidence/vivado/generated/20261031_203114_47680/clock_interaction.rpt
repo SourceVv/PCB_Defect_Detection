@@ -1,0 +1,23 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sat Oct 31 20:35:32 2026
+| Host         : ibuki-pc running 64-bit major release  (build 9200)
+| Command      : report_clock_interaction -file D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/evidence/vivado/generated/20261031_203114_47680/clock_interaction.rpt
+| Design       : pcb_roi_system_wrapper
+| Device       : 7z020-clg400
+| Speed File   : -1  PRODUCTION 1.12 2019-11-22
+| Design State : Routed
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Clock Interaction Report
+
+Clock Interaction Table
+-----------------------
+
+                            WNS                            TNS Failing  TNS Total    WNS Path         Clock-Pair           Inter-Clock         
+From Clock    To Clock      Clock Edges  WNS(ns)  TNS(ns)    Endpoints    Endpoints  Requirement(ns)  Classification       Constraints         
+------------  ------------  -----------  -------  -------  -----------  -----------  ---------------  -------------------  ------------------  
+clk_fpga_0    clk_fpga_0    rise - rise    -2.31   -13.24           33        19404            10.00  Clean                Partial False Path  
+
+

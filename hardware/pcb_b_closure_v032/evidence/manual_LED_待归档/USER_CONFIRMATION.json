@@ -1,0 +1,10 @@
+{
+  "client_date": "2026-11-01",
+  "source": "User reply in this conversation",
+  "user_confirmed_jtag_and_sw0_ld0_test": true,
+  "photos_or_video_exist_user_reported": true,
+  "media_archived_here": false,
+  "media_independently_reviewed": false,
+  "needs_repeat_operation": false,
+  "next_action": "Archive and review the existing original photos/video; do not invent a new test record"
+}

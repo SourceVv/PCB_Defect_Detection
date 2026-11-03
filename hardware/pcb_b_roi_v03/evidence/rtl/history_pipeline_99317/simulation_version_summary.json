@@ -1,0 +1,56 @@
+{
+  "scope": "pure RTL simulation; no physical DMA/board claim",
+  "final_rtl_sha256": "99317f90e92642e1dfbe404a005ebfd25dfc87163b15265796dd46ff242e7fc1",
+  "historical_single_stage_rtl_sha256": "b01fef09e3adab9eee3b10c332f1340d0594a71059aa0802656c83ec53754995",
+  "final_pipeline": {
+    "minimum_input_interval_clocks": 3,
+    "fullframe_frames": 3,
+    "fullframe_input_beats": 3609525,
+    "fullframe_output_beats": 3609525,
+    "fullframe_bytes": 14438100,
+    "fullframe_white_pixels": [
+      1975978,
+      326860,
+      314801
+    ],
+    "fullframe_roi_counters_per_frame": 17,
+    "input_stalls": 7858878,
+    "output_stalls": 924843,
+    "simultaneous": 3603661,
+    "input_gaps": 290885,
+    "unit_packets": 39,
+    "unit_input_beats": 10380,
+    "unit_output_beats": 10379,
+    "unit_deliberately_reset_discarded_beats": 1
+  },
+  "independent_pipeline_review": {
+    "packets": 44,
+    "input_beats": 10392,
+    "output_beats": 10388,
+    "deliberately_reset_discarded_beats": 4,
+    "input_stalls": 13029,
+    "output_stalls": 2702,
+    "back_to_back_packet_boundary_handshakes": 4,
+    "zero_keep_beats": 329,
+    "extra_coverage": [
+      "soft reset COMPARE",
+      "soft reset ACCUM",
+      "soft reset blocked OUT",
+      "single-beat LAST internal-busy config rejection",
+      "soft reset cfg_pending drops request but retains geometry"
+    ]
+  },
+  "files": {
+    "historical_single_stage/axis_roi_before_pipeline.v.txt": "b01fef09e3adab9eee3b10c332f1340d0594a71059aa0802656c83ec53754995",
+    "historical_single_stage/fullframe_compile.log": "6ee2420411b756e09cdb189acb117a4afe982fad31aa3353fcb0963b5c213090",
+    "historical_single_stage/fullframe_simulation.log": "fe7dae58c586b700e444ec38719ffc9c6a7c7290666398baedf15fb8c4c60599",
+    "historical_single_stage/unit_compile.log": "0809df93f15794f33a2806bd8f99e958ca96bb3d4b61aa4b06ddb3fc546d55eb",
+    "historical_single_stage/unit_simulation.log": "1eef45baaad431577d0f098f3c7624c878501f40ea7a30c157c94b1bd00c96ee",
+    "pipeline_final/fullframe_compile.log": "e460c054fa02633b1a410ffa88fb721ae71f1ce50c5e5fd96e94562f8a3e2343",
+    "pipeline_final/fullframe_simulation.log": "3b17550129b02f1cf737c987a33a4c3035d011ffcbbb1fc2a3b2c7fe619edc14",
+    "pipeline_final/unit_compile.log": "886bfc7ecbbf629277fe358c6e30d1ee5f54dddfced1a533f853793de00b790b",
+    "pipeline_final/unit_simulation.log": "988f76e5482e6af76f3eec30665ab96330a90754d192442122056a972f34447e",
+    "pipeline_review/simulation.log": "f7087e51d7d4cd03e84668fc0ccfd7a8131678df0b56224994d39457e5ff8177",
+    "pipeline_review/tb_roi_pipeline_review.sv": "bf3676cf7b42cdd9b8eb0834d33ed04fa0867b26c091a7a270d323faffde26ec"
+  }
+}

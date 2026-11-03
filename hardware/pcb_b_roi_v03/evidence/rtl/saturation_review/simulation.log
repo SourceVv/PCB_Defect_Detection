@@ -1,0 +1,11 @@
+# vsim -c -lib D:/codex/2026-10-21/b-2/work/roi_v03_saturation_review/lib tb_roi_saturation_review -l work/roi_v03_saturation_review/simulation.log -do "run -all; quit -force -code 0" 
+# Start time: 20:45:19 on Oct 31,2026
+# Loading sv_std.std
+# Loading D:/codex/2026-10-21/b-2/work/roi_v03_saturation_review/lib.tb_roi_saturation_review
+# Loading D:/codex/2026-10-21/b-2/work/roi_v03_saturation_review/lib.axis_roi_threshold_stats
+# run -all
+# PASS: ROI_SATURATION_REVIEW packets=55 input_beats=43172 output_beats=43168 input_stalls=53960 output_stalls=10871 back_to_back=4 zero_keep=329
+# ** Note: $finish    : work/roi_v03_saturation_review/tb_roi_saturation_review.sv(368)
+#    Time: 1421300 ns  Iteration: 1  Instance: /tb_roi_saturation_review
+# End time: 20:45:22 on Oct 31,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

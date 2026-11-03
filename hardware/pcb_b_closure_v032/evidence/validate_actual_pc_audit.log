@@ -1,0 +1,230 @@
+{
+  "rounds": 33,
+  "dma_frames": 66,
+  "measured_pairs": 30,
+  "sample_masks_verified": 6,
+  "aggregate_recomputed": {
+    "cpu": {
+      "outer_wall_seconds": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.227779538,
+        "max": 0.257537704,
+        "mean": 0.23526086113333333,
+        "median": 0.2351752795,
+        "p95_linear": 0.23888674975,
+        "std_population": 0.005157874227563381
+      }
+    },
+    "old": {
+      "outer_wall_seconds": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.419172184,
+        "max": 0.478952879,
+        "mean": 0.43688071803333334,
+        "median": 0.437331621,
+        "p95_linear": 0.45550442355,
+        "std_population": 0.012036606587575013
+      },
+      "input_snapshot_seconds": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.028091519998270087,
+        "max": 0.03356559399981052,
+        "mean": 0.028978316666568086,
+        "median": 0.028836359999331762,
+        "p95_linear": 0.031010094749944976,
+        "std_population": 0.0010854720916297534
+      },
+      "transfer_seconds_single_call": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.11747982800079626,
+        "max": 0.15608570400218014,
+        "mean": 0.12219193483336616,
+        "median": 0.11939796300066519,
+        "p95_linear": 0.13222597500007394,
+        "std_population": 0.007435818822388337
+      },
+      "stats_read_seconds_single_call": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.0015064119979797397,
+        "max": 0.0017345039996143896,
+        "mean": 0.001575609566377049,
+        "median": 0.0015611694998369785,
+        "p95_linear": 0.0017265791493628058,
+        "std_population": 6.375037024525445e-05
+      },
+      "transfer_and_stats_seconds_single_call": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.11901035100163426,
+        "max": 0.1577722639995045,
+        "mean": 0.12378178746682049,
+        "median": 0.12107017500056827,
+        "p95_linear": 0.1338080952502423,
+        "std_population": 0.007450876477610439
+      },
+      "result_validation_and_copy_seconds": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.26439830100207473,
+        "max": 0.28728801800025394,
+        "mean": 0.2770019055666732,
+        "median": 0.2800753044994053,
+        "p95_linear": 0.28178374610015455,
+        "std_population": 0.0066108366253175635
+      },
+      "process_seconds_single_call": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.4128831070011074,
+        "max": 0.47256157399897347,
+        "mean": 0.4303602709329425,
+        "median": 0.430732288497893,
+        "p95_linear": 0.4488221421997877,
+        "std_population": 0.012012096794213518
+      }
+    },
+    "new": {
+      "outer_wall_seconds": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.272361236,
+        "max": 0.301377951,
+        "mean": 0.2770365533333333,
+        "median": 0.27590638700000003,
+        "p95_linear": 0.2809905076,
+        "std_population": 0.005053682942186874
+      },
+      "input_snapshot_seconds": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.028038103999278974,
+        "max": 0.030469242999970447,
+        "mean": 0.028672383933129215,
+        "median": 0.028701707498839824,
+        "p95_linear": 0.028914165501191746,
+        "std_population": 0.0004126452511350349
+      },
+      "transfer_seconds_single_call": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.11858159999974305,
+        "max": 0.14617191999786883,
+        "mean": 0.12394306349973097,
+        "median": 0.12304904550001083,
+        "p95_linear": 0.12741553989890234,
+        "std_population": 0.004668645683937559
+      },
+      "stats_read_seconds_single_call": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.0015027820008981507,
+        "max": 0.001724000001559034,
+        "mean": 0.00158243640010672,
+        "median": 0.0015627719985786825,
+        "p95_linear": 0.0017160282503027701,
+        "std_population": 6.366961740800527e-05
+      },
+      "transfer_and_stats_seconds_single_call": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.12016131699783728,
+        "max": 0.14779116899808287,
+        "mean": 0.12553953926665903,
+        "median": 0.12461321850059903,
+        "p95_linear": 0.12899293169921291,
+        "std_population": 0.004659513491283861
+      },
+      "result_validation_and_copy_seconds": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.11724971700095921,
+        "max": 0.12080314400009229,
+        "mean": 0.11872521666664397,
+        "median": 0.11873891049981466,
+        "p95_linear": 0.11979303344960499,
+        "std_population": 0.0008042805216189992
+      },
+      "process_seconds_single_call": {
+        "n": 30,
+        "unit": "seconds",
+        "min": 0.2688134579984762,
+        "max": 0.29790830700221704,
+        "mean": 0.2735440122331056,
+        "median": 0.27244298400000844,
+        "p95_linear": 0.2775077572490773,
+        "std_population": 0.005073874916371458
+      }
+    }
+  },
+  "paired_ratios_recomputed": {
+    "old_over_new": {
+      "n": 30,
+      "median_of_paired_ratios": 1.5861808549170593,
+      "ratio_of_medians": 1.5850724796740567
+    },
+    "cpu_over_new": {
+      "n": 30,
+      "median_of_paired_ratios": 0.8525665134803706,
+      "ratio_of_medians": 0.8523734519418718
+    }
+  },
+  "schema": "pcb-b-closure-independent-audit/0.3.2",
+  "passed": true,
+  "audit_passed": true,
+  "mode": "validate",
+  "source_run_id": "20261101_32b20001",
+  "source_state": "complete",
+  "hardware_executed_by_this_tool": false,
+  "verified_utc": "2026-11-01T12:31:56.091348+00:00",
+  "source_report_sha256": "8d32b13c080c4592b4d68c7bc2cd06a90109ebae691d8bc163aaf4bf33d9eaea",
+  "provenance_verified": {
+    "closure": {
+      "sha256": "f0d7adae6fd87dc900341fec582a174f8fd3f18248a53990ac8669023892ddb0",
+      "files_verified": 5,
+      "name": "NEW_PACKAGE_MANIFEST.json"
+    },
+    "frozen": {
+      "sha256": "d8fa2acdd46590f1c16ce6a45b757385ccf7080bd928b58937b122a66974a06f",
+      "files_verified": 138,
+      "name": "PACKAGE_MANIFEST.json"
+    },
+    "previous": {
+      "sha256": "9bfc8d2d616824339b01f1e95e8be13ff772e3362bb5a60059039dafeeb4e8a5",
+      "files_verified": 13,
+      "name": "NEW_PACKAGE_MANIFEST.json"
+    }
+  },
+  "reported_environment": {
+    "client_date": "2026-11-01",
+    "board_utc": "2025-05-04T07:54:05.077395+00:00",
+    "python": "3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]",
+    "platform": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+    "machine": "armv7l",
+    "uid": 0,
+    "clock": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    },
+    "cpu_runtime_info": {
+      "scaling_governor": null,
+      "scaling_cur_freq": null,
+      "scaling_min_freq": null,
+      "scaling_max_freq": null
+    },
+    "pynq": "3.1.1",
+    "numpy": "1.21.5"
+  },
+  "scope": "Independent audit of saved B-chain evidence; no board operation, camera, C integration or general classifier claim",
+  "source_jsonl_sha256": "fccc57958107076f1f6ce7db28e08724643b2d9571e2dcc2722b710d8abb9dbe",
+  "evidence_limits": [
+    "Saved sample BINs are independently compared byte-for-byte with frozen pixels. Every other frame is audited through its recorded hash/full-comparison flag/statistics/protocol/safety evidence and frozen executable source bindings; its raw output BIN was not archived separately."
+  ]
+}
+Independent PC audit: outputs\pcb_b_closure_v032\evidence\closure_validate_20261101_32b20001\independent_validate_audit.json

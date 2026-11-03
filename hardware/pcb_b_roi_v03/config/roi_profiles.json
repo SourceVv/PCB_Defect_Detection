@@ -1,0 +1,424 @@
+{
+  "latest17": {
+    "a_config_version": "0.2.0",
+    "input_size_width_height": [
+      2533,
+      1900
+    ],
+    "source_config_sha256": "21f680a8c840cbfcde2fd97c857db9b28f6807b9cc5072ad85b90a82b339cb34",
+    "pixel_threshold": 120,
+    "invert": true,
+    "rois": [
+      {
+        "name": "U1",
+        "box": [
+          2125,
+          1095,
+          2360,
+          1275
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "U2",
+        "box": [
+          1360,
+          594,
+          1602,
+          740
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "missing"
+      },
+      {
+        "name": "U5",
+        "box": [
+          1510,
+          1290,
+          1835,
+          1486
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "C14",
+        "box": [
+          1180,
+          600,
+          1250,
+          645
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "tilt"
+      },
+      {
+        "name": "C17",
+        "box": [
+          1180,
+          635,
+          1250,
+          680
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "tilt"
+      },
+      {
+        "name": "C24",
+        "box": [
+          1180,
+          790,
+          1250,
+          835
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "tilt"
+      },
+      {
+        "name": "X1",
+        "box": [
+          1342,
+          259,
+          1494,
+          399
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "X2",
+        "box": [
+          1824,
+          1235,
+          2026,
+          1425
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "SW2",
+        "box": [
+          1748,
+          836,
+          1900,
+          1026
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "missing"
+      },
+      {
+        "name": "MIC1",
+        "box": [
+          633,
+          798,
+          744,
+          988
+        ],
+        "enabled": true,
+        "source_feature": "hcorr",
+        "source_type": "missing"
+      },
+      {
+        "name": "U3",
+        "box": [
+          1368,
+          1140,
+          1520,
+          1330
+        ],
+        "enabled": true,
+        "source_feature": "hcorr",
+        "source_type": "missing"
+      },
+      {
+        "name": "U6",
+        "box": [
+          1520,
+          836,
+          1672,
+          1026
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "U4",
+        "box": [
+          2085,
+          465,
+          2185,
+          600
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "R12",
+        "box": [
+          507,
+          704,
+          659,
+          817
+        ],
+        "enabled": true,
+        "source_feature": "hcorr",
+        "source_type": "missing"
+      },
+      {
+        "name": "C13",
+        "box": [
+          456,
+          589,
+          608,
+          760
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "L2",
+        "box": [
+          1267,
+          1121,
+          1444,
+          1292
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "C20",
+        "box": [
+          1241,
+          1121,
+          1393,
+          1292
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      }
+    ],
+    "scope": "foreground counts only; not SAD/hcorr/cd40 or classification"
+  },
+  "frozen16": {
+    "a_config_version": "0.1.0",
+    "input_size_width_height": [
+      2533,
+      1900
+    ],
+    "source_config_sha256": "34851eba3a5c55177f77bb99407509c1117e01abca72a4759a74b79f4582843f",
+    "pixel_threshold": 120,
+    "invert": true,
+    "rois": [
+      {
+        "name": "U1",
+        "box": [
+          2125,
+          1095,
+          2360,
+          1275
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "U2",
+        "box": [
+          1360,
+          594,
+          1602,
+          740
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "missing"
+      },
+      {
+        "name": "U5",
+        "box": [
+          1510,
+          1290,
+          1835,
+          1486
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "C14",
+        "box": [
+          1180,
+          600,
+          1250,
+          645
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "tilt"
+      },
+      {
+        "name": "C17",
+        "box": [
+          1180,
+          635,
+          1250,
+          680
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "tilt"
+      },
+      {
+        "name": "C24",
+        "box": [
+          1180,
+          790,
+          1250,
+          835
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "tilt"
+      },
+      {
+        "name": "X1",
+        "box": [
+          1342,
+          259,
+          1494,
+          399
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "X2",
+        "box": [
+          1824,
+          1235,
+          2026,
+          1425
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "SW2",
+        "box": [
+          1748,
+          836,
+          1900,
+          1026
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "missing"
+      },
+      {
+        "name": "MIC1",
+        "box": [
+          633,
+          798,
+          744,
+          988
+        ],
+        "enabled": true,
+        "source_feature": "hcorr",
+        "source_type": "missing"
+      },
+      {
+        "name": "U3",
+        "box": [
+          1368,
+          1140,
+          1520,
+          1330
+        ],
+        "enabled": true,
+        "source_feature": "hcorr",
+        "source_type": "missing"
+      },
+      {
+        "name": "U6",
+        "box": [
+          1520,
+          836,
+          1672,
+          1026
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "R12",
+        "box": [
+          507,
+          704,
+          659,
+          817
+        ],
+        "enabled": true,
+        "source_feature": "hcorr",
+        "source_type": "missing"
+      },
+      {
+        "name": "C13",
+        "box": [
+          456,
+          589,
+          608,
+          760
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "L2",
+        "box": [
+          1267,
+          1121,
+          1444,
+          1292
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "C20",
+        "box": [
+          1241,
+          1121,
+          1393,
+          1292
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      }
+    ],
+    "scope": "foreground counts only; not SAD/hcorr/cd40 or classification"
+  }
+}

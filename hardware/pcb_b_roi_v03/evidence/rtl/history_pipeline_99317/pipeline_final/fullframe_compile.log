@@ -1,0 +1,10 @@
+Model Technology ModelSim - Intel FPGA Edition vlog 2021.1 Compiler 2021.02 Feb  3 2021
+Start time: 20:31:04 on Oct 31,2026
+vlog -sv -work D:\codex\2026-10-21\b-2\work\roi_v03_pipeline_full\modelsim_lib D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\hardware\rtl\axis_roi_threshold_stats.v D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\hardware\sim\tb_roi_fullframe.sv 
+-- Compiling module axis_roi_threshold_stats
+-- Compiling module tb_roi_fullframe
+
+Top level modules:
+	tb_roi_fullframe
+End time: 20:31:04 on Oct 31,2026, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

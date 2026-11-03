@@ -1,0 +1,8 @@
+{
+  "scope": "PC import/factory smoke only; no FPGA or DMA",
+  "passed": true,
+  "separate_module_prevents_old_import_collision": true,
+  "selected_validation": "bytes_count",
+  "no_PYNQ_imported": true,
+  "factory_sha256": "f26baeb853e2b3331178c86e2b299569afe10e85fa8a8837c1b038115745d9b7"
+}

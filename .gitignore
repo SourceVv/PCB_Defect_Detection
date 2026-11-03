@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+runtime/
+inspection_results/
+reference_profiles/
+pcb_ocr_connection.json
+ocr_service_config.json
+.pytest_cache/

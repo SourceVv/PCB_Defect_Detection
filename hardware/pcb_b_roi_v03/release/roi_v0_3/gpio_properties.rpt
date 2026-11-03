@@ -1,0 +1,27 @@
+Property                      Type     Read-only  Value
+ALLOWED_SIM_MODELS            string*  true       rtl
+CLASS                         string   true       bd_cell
+CONFIG.C_ALL_INPUTS           string   false      0
+CONFIG.C_ALL_INPUTS_2         string   false      1
+CONFIG.C_ALL_OUTPUTS          string   false      1
+CONFIG.C_ALL_OUTPUTS_2        string   false      0
+CONFIG.C_DOUT_DEFAULT         string   false      0x00000180
+CONFIG.C_DOUT_DEFAULT_2       string   false      0x00000000
+CONFIG.C_GPIO2_WIDTH          string   false      32
+CONFIG.C_GPIO_WIDTH           string   false      32
+CONFIG.C_INTERRUPT_PRESENT    string   false      0
+CONFIG.C_IS_DUAL              string   false      1
+CONFIG.C_TRI_DEFAULT          string   false      0xFFFFFFFF
+CONFIG.C_TRI_DEFAULT_2        string   false      0xFFFFFFFF
+CONFIG.Component_Name         string   true       pcb_roi_system_axi_gpio_ctrl_0
+CONFIG.GPIO2_BOARD_INTERFACE  string   false      Custom
+CONFIG.GPIO_BOARD_INTERFACE   string   false      Custom
+CONFIG.USE_BOARD_FLOW         string   false      false
+LOCATION                      string   false      
+LOCK_UPGRADE                  bool     false      0
+NAME                          string   false      axi_gpio_ctrl
+PATH                          string   true       /axi_gpio_ctrl
+SCREENSIZE                    string   false      
+SELECTED_SIM_MODEL            enum     false      rtl
+TYPE                          string   true       ip
+VLNV                          string   true       xilinx.com:ip:axi_gpio:2.0

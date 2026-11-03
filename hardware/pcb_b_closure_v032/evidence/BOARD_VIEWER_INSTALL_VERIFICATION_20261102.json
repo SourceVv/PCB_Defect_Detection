@@ -1,0 +1,29 @@
+{
+  "client_date": "2026-11-02",
+  "board_supplement_files_installed": 15,
+  "frozen_runtime_unchanged": true,
+  "old_classification_failure_unchanged": true,
+  "board_active_worker_found": false,
+  "viewer_sha256": "6512a509a8277576b9aeea5e69ff4ac1bec9942d9d8bc657989bdb3d6dba9a92",
+  "viewer_metadata": {
+    "mode": "read-only saved JSON reports",
+    "client_date": "2026-11-02",
+    "hardware_test_batch_date": "2026-11-01",
+    "hardware_executed": false,
+    "board_system": "Linux",
+    "board_machine": "armv7l",
+    "effective_uid": 1000,
+    "board_utc_preserved": "2025-05-04T08:49:54.807456+00:00",
+    "source_sha256": "3ac1f68cf7212c2b1e0ffb78427d44f68ad14c552f013222497940cfdb00e2e2",
+    "code_cells_executed": 4,
+    "PC_audits_passed": 3,
+    "note": "Board ordinary user executed only the result viewer; this did not repeat the actual DMA/stability runs."
+  },
+  "code_execution_counts": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "scope": "Ordinary board user read saved completed reports. No new FPGA programming or DMA in this final viewing step."
+}

@@ -1,0 +1,18 @@
+{
+  "scope": "independent integral-image audit vs separate ROI slicing reference; CPU only",
+  "hardware_executed": false,
+  "checks": {
+    "frozen16": {
+      "all_named_roi_counts_equal": true,
+      "mask_raw_hash_equal": true,
+      "union_pixels_equal": true,
+      "white_pixels_equal": true
+    },
+    "latest17": {
+      "all_named_roi_counts_equal": true,
+      "mask_raw_hash_equal": true,
+      "union_pixels_equal": true,
+      "white_pixels_equal": true
+    }
+  }
+}

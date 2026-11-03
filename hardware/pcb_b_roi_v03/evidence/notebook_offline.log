@@ -1,0 +1,392 @@
+工程目录： D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03
+当前系统： Windows AMD64
+{
+  "scope": "CPU reference only",
+  "hardware_executed": false,
+  "frozen16_vs_original_A": {
+    "match": true,
+    "mismatches": 0,
+    "bytes": 4812700,
+    "first_mismatch": null
+  },
+  "cases": [
+    {
+      "name": "bypass_32",
+      "shape": [
+        4,
+        8
+      ],
+      "bytes": 32,
+      "roi_count": 0,
+      "invert": false,
+      "roi_enable": false,
+      "bypass": true,
+      "expected_stats": {
+        "roi_counts": {},
+        "roi_counts_by_index": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "output_white_pixels": 0,
+        "valid_pixels": 32,
+        "roi_union_pixels": 0
+      },
+      "expected_raw_sha256": "630dcd2966c4336691125448bbb25b4ff412a49c732db2c8abc1b8581bd710dd"
+    },
+    {
+      "name": "bypass_64",
+      "shape": [
+        8,
+        8
+      ],
+      "bytes": 64,
+      "roi_count": 0,
+      "invert": false,
+      "roi_enable": false,
+      "bypass": true,
+      "expected_stats": {
+        "roi_counts": {},
+        "roi_counts_by_index": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "output_white_pixels": 0,
+        "valid_pixels": 64,
+        "roi_union_pixels": 0
+      },
+      "expected_raw_sha256": "fdeab9acf3710362bd2658cdc9a29e8f9c757fcf9811603a8c447cd1d9151108"
+    },
+    {
+      "name": "roi_boundary_8x4",
+      "shape": [
+        4,
+        8
+      ],
+      "bytes": 32,
+      "roi_count": 3,
+      "invert": true,
+      "roi_enable": true,
+      "bypass": false,
+      "expected_stats": {
+        "roi_counts": {
+          "left": 4,
+          "right": 6
+        },
+        "roi_counts_by_index": [
+          4,
+          6,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "output_white_pixels": 10,
+        "valid_pixels": 32,
+        "roi_union_pixels": 18
+      },
+      "expected_raw_sha256": "fbacc2a227705cacdf79d0d60816ec24059e73243d6abf933a02d75c0f2963d7"
+    },
+    {
+      "name": "bypass_640x480",
+      "shape": [
+        480,
+        640
+      ],
+      "bytes": 307200,
+      "roi_count": 0,
+      "invert": false,
+      "roi_enable": false,
+      "bypass": true,
+      "expected_stats": {
+        "roi_counts": {},
+        "roi_counts_by_index": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "output_white_pixels": 0,
+        "valid_pixels": 307200,
+        "roi_union_pixels": 0
+      },
+      "expected_raw_sha256": "a7d8881521cbb1e4a5ca960198c7907b45625b39d3a7a86368fc8b4ecad01014"
+    },
+    {
+      "name": "bypass_full_golden",
+      "shape": [
+        1900,
+        2533
+      ],
+      "bytes": 4812700,
+      "roi_count": 17,
+      "invert": true,
+      "roi_enable": true,
+      "bypass": true,
+      "expected_stats": {
+        "roi_counts": {
+          "U1": 0,
+          "U2": 0,
+          "U5": 0,
+          "C14": 0,
+          "C17": 0,
+          "C24": 0,
+          "X1": 0,
+          "X2": 0,
+          "SW2": 0,
+          "MIC1": 0,
+          "U3": 0,
+          "U6": 0,
+          "U4": 0,
+          "R12": 0,
+          "C13": 0,
+          "L2": 0,
+          "C20": 0
+        },
+        "roi_counts_by_index": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "output_white_pixels": 0,
+        "valid_pixels": 4812700,
+        "roi_union_pixels": 389266
+      },
+      "expected_raw_sha256": "fa54d2e3bf01f7f0d66481c4fcbfd43b8fcabe16467d9b9cc46f3cad4971377f"
+    },
+    {
+      "name": "threshold_full_golden",
+      "shape": [
+        1900,
+        2533
+      ],
+      "bytes": 4812700,
+      "roi_count": 17,
+      "invert": true,
+      "roi_enable": false,
+      "bypass": false,
+      "expected_stats": {
+        "roi_counts": {
+          "U1": 30056,
+          "U2": 34214,
+          "U5": 54347,
+          "C14": 2618,
+          "C17": 2568,
+          "C24": 2264,
+          "X1": 15064,
+          "X2": 32318,
+          "SW2": 22761,
+          "MIC1": 18077,
+          "U3": 25598,
+          "U6": 24891,
+          "U4": 12059,
+          "R12": 14346,
+          "C13": 21524,
+          "L2": 26893,
+          "C20": 23469
+        },
+        "roi_counts_by_index": [
+          30056,
+          34214,
+          54347,
+          2618,
+          2568,
+          2264,
+          15064,
+          32318,
+          22761,
+          18077,
+          25598,
+          24891,
+          12059,
+          14346,
+          21524,
+          26893,
+          23469
+        ],
+        "output_white_pixels": 1975978,
+        "valid_pixels": 4812700,
+        "roi_union_pixels": 389266
+      },
+      "expected_raw_sha256": "27d35a96199b460036ba6de69172f75839bd01b59a41cc04c568ddf8e6b24b5e"
+    },
+    {
+      "name": "roi_latest17_full",
+      "shape": [
+        1900,
+        2533
+      ],
+      "bytes": 4812700,
+      "roi_count": 17,
+      "invert": true,
+      "roi_enable": true,
+      "bypass": false,
+      "expected_stats": {
+        "roi_counts": {
+          "U1": 30056,
+          "U2": 34214,
+          "U5": 54347,
+          "C14": 2618,
+          "C17": 2568,
+          "C24": 2264,
+          "X1": 15064,
+          "X2": 32318,
+          "SW2": 22761,
+          "MIC1": 18077,
+          "U3": 25598,
+          "U6": 24891,
+          "U4": 12059,
+          "R12": 14346,
+          "C13": 21524,
+          "L2": 26893,
+          "C20": 23469
+        },
+        "roi_counts_by_index": [
+          30056,
+          34214,
+          54347,
+          2618,
+          2568,
+          2264,
+          15064,
+          32318,
+          22761,
+          18077,
+          25598,
+          24891,
+          12059,
+          14346,
+          21524,
+          26893,
+          23469
+        ],
+        "output_white_pixels": 326860,
+        "valid_pixels": 4812700,
+        "roi_union_pixels": 389266
+      },
+      "expected_raw_sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be"
+    },
+    {
+      "name": "roi_frozen16_full",
+      "shape": [
+        1900,
+        2533
+      ],
+      "bytes": 4812700,
+      "roi_count": 16,
+      "invert": true,
+      "roi_enable": true,
+      "bypass": false,
+      "expected_stats": {
+        "roi_counts": {
+          "U1": 30056,
+          "U2": 34214,
+          "U5": 54347,
+          "C14": 2618,
+          "C17": 2568,
+          "C24": 2264,
+          "X1": 15064,
+          "X2": 32318,
+          "SW2": 22761,
+          "MIC1": 18077,
+          "U3": 25598,
+          "U6": 24891,
+          "R12": 14346,
+          "C13": 21524,
+          "L2": 26893,
+          "C20": 23469
+        },
+        "roi_counts_by_index": [
+          30056,
+          34214,
+          54347,
+          2618,
+          2568,
+          2264,
+          15064,
+          32318,
+          22761,
+          18077,
+          25598,
+          24891,
+          14346,
+          21524,
+          26893,
+          23469,
+          0
+        ],
+        "output_white_pixels": 314801,
+        "valid_pixels": 4812700,
+        "roi_union_pixels": 375766
+      },
+      "expected_raw_sha256": "fe958bf09bda226fde8c96001bfbc4a11f547ad49e83cae38ebd5d3c5b50c902"
+    }
+  ]
+}

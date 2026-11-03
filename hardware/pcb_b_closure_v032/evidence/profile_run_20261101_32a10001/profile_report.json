@@ -1,0 +1,1045 @@
+{
+  "schema": "pcb-b-strict-mask-microprofile/0.3.2",
+  "run_id": "20261101_32a10001",
+  "state": "complete",
+  "passed": true,
+  "hardware_executed": false,
+  "environment": {
+    "client_date": "2026-11-01",
+    "board_utc": "2025-05-04T07:46:32.470888+00:00",
+    "python": "3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]",
+    "platform": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+    "machine": "armv7l",
+    "uid": 1000,
+    "clock": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    },
+    "cpu_runtime_info": {
+      "scaling_governor": null,
+      "scaling_cur_freq": null,
+      "scaling_min_freq": null,
+      "scaling_max_freq": null
+    }
+  },
+  "numpy": "1.21.5",
+  "mask_bytes": 4812700,
+  "shape": [
+    1900,
+    2533
+  ],
+  "input_raw_sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be",
+  "expected_white_pixels": 326860,
+  "warmups": 3,
+  "measured": 10,
+  "service_source_sha256": "579bd7213c003dc835c88bd1407a2881582f11a1ecdf4f5c2fcb92ad5a20d867",
+  "helper_source_sha256": {
+    "compare": "935db59c4874ff724b777bf11b1015f518f562fe03d139d637118999d5c1a5c9",
+    "sum": "de1981005efbba5fc662546d80eb4f58a51d3c1c3b5308e7b3f8162a51206d3d",
+    "addwrap": "da25436d636826f362d9550eb84bdc9bc418fa31f20c51cdb4ad17bdb30d3a69",
+    "addreduce": "1e56dcdecd65a0e9035faa54c3fcdae1b68325f8ea7342bebf4a84613cf65fe8",
+    "bytes_count": "f69c223f8cf15d842e4c22e1c4e0b2b9ac98321881d6e4ead1ee4151d9691e3f"
+  },
+  "scope": "Strict binary validation AND white count only; excludes comparisons/probes/hashes/file I/O; no DMA or PL measurement",
+  "records": [
+    {
+      "iteration": 0,
+      "phase": "warmup",
+      "candidate": "addwrap",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.131175268,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 0,
+      "phase": "warmup",
+      "candidate": "addreduce",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.187496455,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 0,
+      "phase": "warmup",
+      "candidate": "sum",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.129147864,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 0,
+      "phase": "warmup",
+      "candidate": "bytes_count",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.115345816,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 0,
+      "phase": "warmup",
+      "candidate": "compare",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.248704683,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 1,
+      "phase": "warmup",
+      "candidate": "sum",
+      "order": [
+        "sum",
+        "addreduce",
+        "addwrap",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.129767668,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 1,
+      "phase": "warmup",
+      "candidate": "addreduce",
+      "order": [
+        "sum",
+        "addreduce",
+        "addwrap",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.188080222,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 1,
+      "phase": "warmup",
+      "candidate": "addwrap",
+      "order": [
+        "sum",
+        "addreduce",
+        "addwrap",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.131095403,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 1,
+      "phase": "warmup",
+      "candidate": "bytes_count",
+      "order": [
+        "sum",
+        "addreduce",
+        "addwrap",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.115517304,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 1,
+      "phase": "warmup",
+      "candidate": "compare",
+      "order": [
+        "sum",
+        "addreduce",
+        "addwrap",
+        "bytes_count",
+        "compare"
+      ],
+      "seconds": 0.248718634,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 2,
+      "phase": "warmup",
+      "candidate": "sum",
+      "order": [
+        "sum",
+        "addreduce",
+        "compare",
+        "bytes_count",
+        "addwrap"
+      ],
+      "seconds": 0.128964615,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 2,
+      "phase": "warmup",
+      "candidate": "addreduce",
+      "order": [
+        "sum",
+        "addreduce",
+        "compare",
+        "bytes_count",
+        "addwrap"
+      ],
+      "seconds": 0.187263729,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 2,
+      "phase": "warmup",
+      "candidate": "compare",
+      "order": [
+        "sum",
+        "addreduce",
+        "compare",
+        "bytes_count",
+        "addwrap"
+      ],
+      "seconds": 0.248942997,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 2,
+      "phase": "warmup",
+      "candidate": "bytes_count",
+      "order": [
+        "sum",
+        "addreduce",
+        "compare",
+        "bytes_count",
+        "addwrap"
+      ],
+      "seconds": 0.115482547,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 2,
+      "phase": "warmup",
+      "candidate": "addwrap",
+      "order": [
+        "sum",
+        "addreduce",
+        "compare",
+        "bytes_count",
+        "addwrap"
+      ],
+      "seconds": 0.131114455,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 3,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "sum",
+        "addwrap",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.129145716,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 3,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "sum",
+        "addwrap",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.131061286,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 3,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "sum",
+        "addwrap",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.249125015,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 3,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "sum",
+        "addwrap",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.116139415,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 3,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "sum",
+        "addwrap",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.187098553,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 4,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.131150738,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 4,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.188038744,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 4,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.130048535,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 4,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.249455759,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 4,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "addwrap",
+        "addreduce",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.115494941,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 5,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.131285323,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 5,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.129420683,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 5,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.248602683,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 5,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.115616006,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 5,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.18793315,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 6,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "addreduce",
+        "bytes_count",
+        "addwrap",
+        "sum",
+        "compare"
+      ],
+      "seconds": 0.187085797,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 6,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "addreduce",
+        "bytes_count",
+        "addwrap",
+        "sum",
+        "compare"
+      ],
+      "seconds": 0.115653803,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 6,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "addreduce",
+        "bytes_count",
+        "addwrap",
+        "sum",
+        "compare"
+      ],
+      "seconds": 0.132019693,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 6,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "addreduce",
+        "bytes_count",
+        "addwrap",
+        "sum",
+        "compare"
+      ],
+      "seconds": 0.129368917,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 6,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "addreduce",
+        "bytes_count",
+        "addwrap",
+        "sum",
+        "compare"
+      ],
+      "seconds": 0.24837187,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 7,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "sum",
+        "addwrap"
+      ],
+      "seconds": 0.115891581,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 7,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "sum",
+        "addwrap"
+      ],
+      "seconds": 0.18733579,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 7,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "sum",
+        "addwrap"
+      ],
+      "seconds": 0.249016622,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 7,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "sum",
+        "addwrap"
+      ],
+      "seconds": 0.129300184,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 7,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "sum",
+        "addwrap"
+      ],
+      "seconds": 0.130816812,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 8,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "sum",
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "addwrap"
+      ],
+      "seconds": 0.129059323,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 8,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "sum",
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "addwrap"
+      ],
+      "seconds": 0.116451988,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 8,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "sum",
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "addwrap"
+      ],
+      "seconds": 0.188041464,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 8,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "sum",
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "addwrap"
+      ],
+      "seconds": 0.249062006,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 8,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "sum",
+        "bytes_count",
+        "addreduce",
+        "compare",
+        "addwrap"
+      ],
+      "seconds": 0.131966806,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 9,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "bytes_count",
+        "compare",
+        "sum",
+        "addwrap",
+        "addreduce"
+      ],
+      "seconds": 0.115675064,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 9,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "bytes_count",
+        "compare",
+        "sum",
+        "addwrap",
+        "addreduce"
+      ],
+      "seconds": 0.248894787,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 9,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "bytes_count",
+        "compare",
+        "sum",
+        "addwrap",
+        "addreduce"
+      ],
+      "seconds": 0.129262234,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 9,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "bytes_count",
+        "compare",
+        "sum",
+        "addwrap",
+        "addreduce"
+      ],
+      "seconds": 0.132379581,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 9,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "bytes_count",
+        "compare",
+        "sum",
+        "addwrap",
+        "addreduce"
+      ],
+      "seconds": 0.187554368,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 10,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "sum",
+        "compare",
+        "addwrap",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.129638886,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 10,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "sum",
+        "compare",
+        "addwrap",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.249632227,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 10,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "sum",
+        "compare",
+        "addwrap",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.131226627,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 10,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "sum",
+        "compare",
+        "addwrap",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.11550075,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 10,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "sum",
+        "compare",
+        "addwrap",
+        "bytes_count",
+        "addreduce"
+      ],
+      "seconds": 0.187431742,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 11,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "addreduce",
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.187378874,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 11,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "addreduce",
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.131199606,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 11,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "addreduce",
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.129074714,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 11,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "addreduce",
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.249011255,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 11,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "addreduce",
+        "addwrap",
+        "sum",
+        "compare",
+        "bytes_count"
+      ],
+      "seconds": 0.115493901,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 12,
+      "phase": "measured",
+      "candidate": "compare",
+      "order": [
+        "compare",
+        "bytes_count",
+        "addreduce",
+        "addwrap",
+        "sum"
+      ],
+      "seconds": 0.248316873,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 12,
+      "phase": "measured",
+      "candidate": "bytes_count",
+      "order": [
+        "compare",
+        "bytes_count",
+        "addreduce",
+        "addwrap",
+        "sum"
+      ],
+      "seconds": 0.115645422,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 12,
+      "phase": "measured",
+      "candidate": "addreduce",
+      "order": [
+        "compare",
+        "bytes_count",
+        "addreduce",
+        "addwrap",
+        "sum"
+      ],
+      "seconds": 0.187756535,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 12,
+      "phase": "measured",
+      "candidate": "addwrap",
+      "order": [
+        "compare",
+        "bytes_count",
+        "addreduce",
+        "addwrap",
+        "sum"
+      ],
+      "seconds": 0.131094856,
+      "white_pixels": 326860
+    },
+    {
+      "iteration": 12,
+      "phase": "measured",
+      "candidate": "sum",
+      "order": [
+        "compare",
+        "bytes_count",
+        "addreduce",
+        "addwrap",
+        "sum"
+      ],
+      "seconds": 0.129839889,
+      "white_pixels": 326860
+    }
+  ],
+  "correctness": {
+    "compare": {
+      "all_256_values_checked": true,
+      "valid_values": 2,
+      "invalid_values_rejected": 254,
+      "large_first_middle_last_corruption_rejected": true
+    },
+    "sum": {
+      "all_256_values_checked": true,
+      "valid_values": 2,
+      "invalid_values_rejected": 254,
+      "large_first_middle_last_corruption_rejected": true
+    },
+    "addwrap": {
+      "all_256_values_checked": true,
+      "valid_values": 2,
+      "invalid_values_rejected": 254,
+      "large_first_middle_last_corruption_rejected": true
+    },
+    "addreduce": {
+      "all_256_values_checked": true,
+      "valid_values": 2,
+      "invalid_values_rejected": 254,
+      "large_first_middle_last_corruption_rejected": true
+    },
+    "bytes_count": {
+      "all_256_values_checked": true,
+      "valid_values": 2,
+      "invalid_values_rejected": 254,
+      "large_first_middle_last_corruption_rejected": true
+    }
+  },
+  "summary": {
+    "compare": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.248316873,
+      "max": 0.249632227,
+      "mean": 0.2489489097,
+      "median": 0.24901393849999998,
+      "p95_linear": 0.24955281640000002,
+      "std_population": 0.00040389873571554234
+    },
+    "sum": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.129059323,
+      "max": 0.130048535,
+      "mean": 0.1294159081,
+      "median": 0.1293345505,
+      "p95_linear": 0.1299546443,
+      "std_population": 0.00031392747886365395
+    },
+    "addwrap": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.130816812,
+      "max": 0.132379581,
+      "mean": 0.1314201328,
+      "median": 0.1312131165,
+      "p95_linear": 0.1322176314,
+      "std_population": 0.00048520724276349846
+    },
+    "addreduce": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.187085797,
+      "max": 0.188041464,
+      "mean": 0.1875655017,
+      "median": 0.18749305500000002,
+      "p95_linear": 0.18804024,
+      "std_population": 0.00034291807294309986
+    },
+    "bytes_count": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.115493901,
+      "max": 0.116451988,
+      "mean": 0.1157562871,
+      "median": 0.1156496125,
+      "p95_linear": 0.11631133015,
+      "std_population": 0.0003001014275995547
+    }
+  },
+  "lowest_median_candidate": "bytes_count",
+  "input_unchanged": true,
+  "completed_utc": "2025-05-04T07:46:47.189041+00:00"
+}

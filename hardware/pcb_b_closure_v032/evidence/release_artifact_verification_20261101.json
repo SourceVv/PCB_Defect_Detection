@@ -1,0 +1,941 @@
+{
+  "client_date": "2026-11-01",
+  "scope": "Read-only release artifact verification; no new build or board access",
+  "acceptance_branch": "schedule M6: clean rebuild OR verify release artifacts",
+  "artifact_verification_branch_passed": true,
+  "clean_rebuild_performed_this_audit": false,
+  "current_frozen_manifest": {
+    "file_count": 138,
+    "passed": true,
+    "files": [
+      {
+        "path": "config/a_roi_config_v01.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "config/a_roi_config_v02.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "config/INTERFACE_V03.md",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "config/roi_profiles.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "config/SHA256.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "docs/A_C接口对接说明.md",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "docs/B_ROI与面积统计_新手详细说明.md",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "docs/B_ROI与面积统计_新手详细说明.pdf",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/cpu_reference_audit.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/hwh_xml_driver_validation.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/independent_geometry_audit.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/notebook_offline.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/notebook_offline.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/python_tests.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/fullframe_simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/historical_single_stage/axis_roi_before_pipeline.v.txt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/historical_single_stage/fullframe_compile.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/historical_single_stage/fullframe_simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/historical_single_stage/unit_compile.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/historical_single_stage/unit_simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/history_pipeline_99317/axis_roi_pipeline_99317.v.txt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/history_pipeline_99317/pipeline_final/fullframe_compile.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/history_pipeline_99317/pipeline_final/fullframe_simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/history_pipeline_99317/pipeline_final/unit_compile.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/history_pipeline_99317/pipeline_final/unit_simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/history_pipeline_99317/pipeline_review/simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/history_pipeline_99317/pipeline_review/tb_roi_pipeline_review.sv",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/history_pipeline_99317/simulation_version_summary.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/pipeline_final/axis_roi_pipeline_f65d.v.txt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/pipeline_final/fullframe_compile.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/pipeline_final/fullframe_simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/pipeline_final/unit_compile.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/pipeline_final/unit_simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/pipeline_review/compile.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/pipeline_review/simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/pipeline_review/tb_roi_pipeline_review.sv",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/saturation_review/compile.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/saturation_review/simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/saturation_review/tb_roi_saturation_review.sv",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/simulation_version_summary.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/unit_compile.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/unit_simulation.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/vectors_manifest.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/rtl/VERSION_HISTORY.md",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/software_reference_crosscheck.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_145610_117/build_overlay.jou",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_145610_117/build_overlay.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_145610_117/create_project.jou",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_145610_117/create_project.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_145610_117/input_hashes_before.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_150028_808/build_overlay_inprocess.jou",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_150028_808/build_overlay_inprocess.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_150028_808/input_hashes_before.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_150218_633/build_overlay_inprocess.jou",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_150218_633/build_overlay_inprocess.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_150218_633/input_hashes_before.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_203102_317/build_overlay_inprocess.jou",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_203102_317/build_overlay_inprocess.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_203102_317/input_hashes_before.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_204156_384/build_overlay_inprocess.jou",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_204156_384/build_overlay_inprocess.log",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_204156_384/input_hashes_after.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/batch_20261031_204156_384/input_hashes_before.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_150221_14884/check_timing.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_150221_14884/clock_interaction.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_150221_14884/drc.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_150221_14884/methodology.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_150221_14884/route_status.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_150221_14884/timing_summary.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_150221_14884/utilization.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_203114_47680/build_failure_audit.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_203114_47680/check_timing.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_203114_47680/clock_interaction.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_203114_47680/drc.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_203114_47680/methodology.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_203114_47680/route_status.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_203114_47680/timing_summary.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_203114_47680/utilization.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_204159_39512/check_timing.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_204159_39512/clock_interaction.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_204159_39512/drc.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_204159_39512/methodology.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_204159_39512/route_status.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_204159_39512/timing_summary.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "evidence/vivado/generated/20261031_204159_39512/utilization.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "fixtures/cases_expected.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "fixtures/expected_stats.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "fixtures/input_gray.npy",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "fixtures/mask_frozen16.npy",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "fixtures/mask_full_threshold120.npy",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "fixtures/mask_latest17.npy",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "fixtures/original_frozen_mask.npy",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "fixtures/SHA256.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/rtl/axis_roi_threshold_stats.v",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/sim/prepare_fullframe_vectors.py",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/sim/README.md",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/sim/run_modelsim.ps1",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/sim/tb_axis_roi_threshold_stats.sv",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/sim/tb_roi_fullframe.sv",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/tcl/build_overlay.tcl",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/tcl/build_overlay_inprocess.tcl",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/tcl/create_project.tcl",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/tcl/export_design_metadata.tcl",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/tcl/README_build.md",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "hardware/tcl/run_vivado_build.ps1",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "README_先看这里.md",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/address_map.tsv",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/build_audit.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/cfg_gpio_properties.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/check_timing.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/clock_interaction.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/dma_properties.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/drc.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/gpio_properties.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/ip_status.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/methodology.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/pcb_roi.bit",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/pcb_roi.hwh",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/pcb_roi_system_rebuild.tcl",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/ps_properties.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/README_build_audit.md",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/route_status.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/SHA256.json",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/SHA256SUMS.txt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/timing_gate.txt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/timing_summary.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/tool_versions.txt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "release/roi_v0_3/utilization.rpt",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "software/board_validation.py",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "software/prepare_fixtures.py",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "software/README_软件与接口说明.md",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "software/roi_driver.py",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "software/roi_reference.py",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "software/ROI_板上逐步验收.ipynb",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "software/test_roi_driver.py",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "software/test_transport.py",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "software/transport.py",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      },
+      {
+        "path": "tools/board_live_worker.py",
+        "exists": true,
+        "bytes_match": true,
+        "sha256_match": true
+      }
+    ]
+  },
+  "release_bit_hwh": {
+    "pcb_roi.bit": {
+      "sha256": "8342645ad0c263cab951957f155708a76abeaa1785432e1de81609f60099e48d",
+      "expected": "8342645ad0c263cab951957f155708a76abeaa1785432e1de81609f60099e48d",
+      "match": true
+    },
+    "pcb_roi.hwh": {
+      "sha256": "db8ff9b8f5e0210642a2f716e704ca17f27feba545a33d7b074cf66ef5128ec1",
+      "expected": "db8ff9b8f5e0210642a2f716e704ca17f27feba545a33d7b074cf66ef5128ec1",
+      "match": true
+    }
+  },
+  "build_inputs_match_before_and_after": {
+    "hardware/rtl/axis_roi_threshold_stats.v": {
+      "current_sha256": "f65df400554246f70438c02f9ca4c2dd79f08d02ee8c6b4bccd9a326671d994f",
+      "before": "f65df400554246f70438c02f9ca4c2dd79f08d02ee8c6b4bccd9a326671d994f",
+      "after": "f65df400554246f70438c02f9ca4c2dd79f08d02ee8c6b4bccd9a326671d994f",
+      "match": true
+    },
+    "hardware/tcl/build_overlay_inprocess.tcl": {
+      "current_sha256": "a2e34a32a9fcdbea0f569c1cc630bb0adf6e5d48f4a093794ab00a7ede2ec093",
+      "before": "a2e34a32a9fcdbea0f569c1cc630bb0adf6e5d48f4a093794ab00a7ede2ec093",
+      "after": "a2e34a32a9fcdbea0f569c1cc630bb0adf6e5d48f4a093794ab00a7ede2ec093",
+      "match": true
+    },
+    "hardware/tcl/build_overlay.tcl": {
+      "current_sha256": "761d4c6a8851484eb2249a842d17c8706b1a09ba9ec9980419704c74cefb6139",
+      "before": "761d4c6a8851484eb2249a842d17c8706b1a09ba9ec9980419704c74cefb6139",
+      "after": "761d4c6a8851484eb2249a842d17c8706b1a09ba9ec9980419704c74cefb6139",
+      "match": true
+    },
+    "hardware/tcl/create_project.tcl": {
+      "current_sha256": "f202a44ef923148ba1dfe9edde033385362fc53e00c2b1a559dc046a0a08d97c",
+      "before": "f202a44ef923148ba1dfe9edde033385362fc53e00c2b1a559dc046a0a08d97c",
+      "after": "f202a44ef923148ba1dfe9edde033385362fc53e00c2b1a559dc046a0a08d97c",
+      "match": true
+    },
+    "hardware/tcl/export_design_metadata.tcl": {
+      "current_sha256": "59f62bce2600819ef31ecad0def75d88599f2806a13e6894150abb2d4a4cc19a",
+      "before": "59f62bce2600819ef31ecad0def75d88599f2806a13e6894150abb2d4a4cc19a",
+      "after": "59f62bce2600819ef31ecad0def75d88599f2806a13e6894150abb2d4a4cc19a",
+      "match": true
+    }
+  },
+  "original_build_checks": {
+    "state": "BUILD_AND_OFFLINE_METADATA_PASS",
+    "current_sources_match_build": true,
+    "bit_matches_in_process_output": true,
+    "hwh_matches_project_output": true,
+    "setup_wns_ns": 0.565,
+    "hold_whs_ns": 0.03,
+    "resources": {
+      "Slice LUTs": {
+        "used": 7222,
+        "available": 53200,
+        "percent": 13.58
+      },
+      "Slice Registers": {
+        "used": 7072,
+        "available": 106400,
+        "percent": 6.65
+      },
+      "Block RAM Tile": {
+        "used": 3,
+        "available": 140,
+        "percent": 2.14
+      },
+      "DSPs": {
+        "used": 0,
+        "available": 220,
+        "percent": 0.0
+      }
+    },
+    "drc": {
+      "warning_count": 16,
+      "advisory_count": 4,
+      "error_count": 0,
+      "methodology_lutar1_warning_count": 3
+    }
+  },
+  "delivered_archive": {
+    "name": "B_ROI_v03_实板成果_20261031.zip",
+    "bytes": 8521232,
+    "sha256": "23570b5703758457e1d709694c87723dceee69a9a6eac2b600975cadc8da98ef",
+    "crc_test_passed": true,
+    "bad_entry": null,
+    "frozen_files_checked": 138,
+    "frozen_files_hashes_passed": true,
+    "package_manifest_identical_to_current": true
+  },
+  "physical_board_pc_recheck": {
+    "path": "pcb_b_roi_live_20261031/evidence/independent_pc_recheck.json",
+    "passed": true,
+    "run_id": "20261031_a31f8c62"
+  },
+  "limits": [
+    "Does not prove a teammate clean-room replay",
+    "Does not prove 30-minute sustained hardware or camera-system stability",
+    "Historical build warnings and classification issue remain retained"
+  ]
+}

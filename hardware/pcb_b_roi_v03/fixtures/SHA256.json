@@ -1,0 +1,9 @@
+{
+  "cases_expected.json": "d9b5ed89aa8eaa28801537231e55e41a9af55fef77ada426249c5a8f53d9352e",
+  "expected_stats.json": "a1f736d2424b1963056ea69916c0477f9fb5dc924fc1646f169c6622258905f3",
+  "input_gray.npy": "bc90e6faef72bd058415f835aee86349bd60eda0aa709f8db000e8fefe4722df",
+  "mask_frozen16.npy": "650a8ea7675ea8f7e8920ae159edf4d25298b833cdadafd126f231d47e94594f",
+  "mask_full_threshold120.npy": "d57b528ceba462efb98bc6eea2d03481da352dfd3b64cebfdf7c324ec2f88849",
+  "mask_latest17.npy": "36908929316902688ab8217e2de62813111791be067857a9cdc654692e491b9d",
+  "original_frozen_mask.npy": "650a8ea7675ea8f7e8920ae159edf4d25298b833cdadafd126f231d47e94594f"
+}

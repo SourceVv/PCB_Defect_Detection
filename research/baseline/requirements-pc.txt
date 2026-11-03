@@ -1,0 +1,4 @@
+# Exact PC baseline used for the local 252-decision replay.
+# Use Python 3.14.6 to reproduce the tested interpreter environment.
+numpy==2.5.3
+opencv-python==5.0.0.93

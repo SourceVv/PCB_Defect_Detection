@@ -1,0 +1,22 @@
+{
+  "original_repository": "https://github.com/SourceVv/PCB_ROI_Fpga",
+  "hardware_commit": "cf464a8e130cea75aa19396b3b2f88f7306da269",
+  "ui_source": "PCB_UI_Blue_Jupyter",
+  "ui_checks": {
+    "input_zip_sha256": "4423e692a5296bd0062b934d2fdaa5aadaa28e454b7466697c14065a01c1e1c0",
+    "output_zip_sha256": "46289a164fe54273201159eb6b43c33baf1a6310ceb66ea813053ce7030d8678",
+    "detector_backend_assets_byte_identical": true,
+    "widgets8_callbacks": "passed",
+    "widgets7_callbacks": "passed",
+    "jupyterlab_live_browser": "passed",
+    "development_image_cpu_inspection_rows": 105,
+    "launcher_with_hardware_constructor_mocked": "passed",
+    "checksum_mismatch_rejection": "passed",
+    "physical_fpga_tested": false,
+    "screenshots": "Actual JupyterLab widget rendering; inspection results from CPU development samples."
+  },
+  "notes": [
+    "Python comments and docstrings, HDL comments, full-line Tcl/PowerShell comments and notebook code comments removed. Original source provenance remains traceable through the recorded commit.",
+    "Historical hardware manifests describe upstream files; use release_sha256.json for this organized repository."
+  ]
+}

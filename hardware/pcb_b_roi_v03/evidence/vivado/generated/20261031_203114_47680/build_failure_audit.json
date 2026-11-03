@@ -1,0 +1,36 @@
+{
+  "state": "FAILED_TIMING_NO_RELEASE",
+  "rtl_sha256_at_launch": "99317f90e92642e1dfbe404a005ebfd25dfc87163b15265796dd46ff242e7fc1",
+  "input_hashes_at_launch": {
+    "hardware/rtl/axis_roi_threshold_stats.v": "99317f90e92642e1dfbe404a005ebfd25dfc87163b15265796dd46ff242e7fc1",
+    "hardware/tcl/build_overlay_inprocess.tcl": "a2e34a32a9fcdbea0f569c1cc630bb0adf6e5d48f4a093794ab00a7ede2ec093",
+    "hardware/tcl/build_overlay.tcl": "761d4c6a8851484eb2249a842d17c8706b1a09ba9ec9980419704c74cefb6139",
+    "hardware/tcl/create_project.tcl": "f202a44ef923148ba1dfe9edde033385362fc53e00c2b1a559dc046a0a08d97c",
+    "hardware/tcl/export_design_metadata.tcl": "59f62bce2600819ef31ecad0def75d88599f2806a13e6894150abb2d4a4cc19a"
+  },
+  "setup_wns_ns": -2.306,
+  "setup_tns_ns": -13.245,
+  "setup_failing_endpoints": 33,
+  "hold_whs_ns": 0.019,
+  "hold_ths_ns": 0.0,
+  "routing_errors": 0,
+  "fully_routed_nets": 11290,
+  "drc_warning_count": 16,
+  "drc_advisory_count": 4,
+  "release_bit_published": false,
+  "hardware_executed": false,
+  "worst_source": "pixel_x_reg[1]",
+  "worst_destination": "beat_error_reg/D",
+  "worst_datapath_ns": 12.255,
+  "worst_logic_levels": 22,
+  "report_sha256": {
+    "check_timing.rpt": "e78ef804f67a12165ed434941e722bd7d430bd49d87c2ec8004b341554cfd741",
+    "clock_interaction.rpt": "cd4fd243fa728bbc6f1a852b245d10d7de0e587ac073ff236c6aa34e95d49b0a",
+    "drc.rpt": "316f0ee3f9f8c4260e15b7ce356b9c556da9fdaf07603ab7b9f47d44cc165993",
+    "methodology.rpt": "fb58e235d262d1331aabd1e670d574bb951c32074a3aafd2eea63745424f0a6b",
+    "pcb_roi_routed_failed.dcp": "f2f2f4d17a2481761721ef9a1476925a709c5121035286c15ae2eb57910261cc",
+    "route_status.rpt": "7152a9c93ee082a586a0ddd2d53546c7f9cc665034a7359105738aa663d8ca5c",
+    "timing_summary.rpt": "dd5776d0a0216af63d4b48dc50a8bbde30c88ec10433b1edb1d2f64e927cf5c4",
+    "utilization.rpt": "18554a7308644f7ad7fde4bfcac6b8cb8c939fbaa5518f578f26cdf381206cf4"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "schema": "pcb-b-final-core-verification/0.3.2",
+  "client_date": "2026-11-01",
+  "verified_utc": "2026-11-01T12:53:10.519453+00:00",
+  "B_core_hardware_verified": true,
+  "B_optimization_and_stability_verified": true,
+  "hardware_changed_this_round": false,
+  "manifests": {
+    "closure": {
+      "manifest_sha256": "f0d7adae6fd87dc900341fec582a174f8fd3f18248a53990ac8669023892ddb0",
+      "files_verified": 5
+    },
+    "roi": {
+      "manifest_sha256": "d8fa2acdd46590f1c16ce6a45b757385ccf7080bd928b58937b122a66974a06f",
+      "files_verified": 138
+    },
+    "previous": {
+      "manifest_sha256": "9bfc8d2d616824339b01f1e95e8be13ff772e3362bb5a60059039dafeeb4e8a5",
+      "files_verified": 13
+    }
+  },
+  "bit_hwh_sha256": {
+    "pcb_roi.bit": "8342645ad0c263cab951957f155708a76abeaa1785432e1de81609f60099e48d",
+    "pcb_roi.hwh": "db8ff9b8f5e0210642a2f716e704ca17f27feba545a33d7b074cf66ef5128ec1"
+  },
+  "actual_runs_and_audits": {
+    "profile": {
+      "run_id": "20261101_32a10001",
+      "report_sha256": "7a44d910c4b098b7dbecac94f8d2f5b3542b7099f2ff2aa8daa43d7ce2708694",
+      "PC_audit_sha256": "5a26cf43fd930535a907207bea923ee98ed8d25a30dfab616340ca4a30edbea5",
+      "passed": true
+    },
+    "validate": {
+      "run_id": "20261101_32b20001",
+      "report_sha256": "8d32b13c080c4592b4d68c7bc2cd06a90109ebae691d8bc163aaf4bf33d9eaea",
+      "PC_audit_sha256": "46654906ac33b3bbbcd46cd9f4ece8ed7ee2d1e1db3ad4a78fb6d8b4e2aefbe0",
+      "passed": true
+    },
+    "stability": {
+      "run_id": "20261101_32c30001",
+      "report_sha256": "1eaaebb89e157a2ff5909851e4a568a85e6f44fc54b79db187c2a0e44d4ee639",
+      "PC_audit_sha256": "2fd115a0b01e71ea697a2139d47147ad0541bfdc5e38d56bb3ef0dcef97435cf",
+      "passed": true
+    }
+  },
+  "fixed_input_B_stability_seconds": 1800.4786872930017,
+  "fixed_input_B_stability_frames": 3439,
+  "whole_camera_system_verified": false,
+  "A_known_classification_failure_preserved": true,
+  "final_factory_PC_smoke_passed": true,
+  "manual_pending": [
+    "existing LED media archive/review",
+    "original project_1 retention evidence",
+    "another human teammate reproduction"
+  ],
+  "note": "Final delivery manifest separately includes generated reports/PDF/viewer and every archived file; this core audit does not hash itself."
+}

@@ -1,0 +1,110 @@
+{
+  "state": "BUILD_AND_OFFLINE_METADATA_PASS",
+  "hardware_executed_by_this_build": false,
+  "source_hashes_before": {
+    "hardware/rtl/axis_roi_threshold_stats.v": "f65df400554246f70438c02f9ca4c2dd79f08d02ee8c6b4bccd9a326671d994f",
+    "hardware/tcl/build_overlay_inprocess.tcl": "a2e34a32a9fcdbea0f569c1cc630bb0adf6e5d48f4a093794ab00a7ede2ec093",
+    "hardware/tcl/build_overlay.tcl": "761d4c6a8851484eb2249a842d17c8706b1a09ba9ec9980419704c74cefb6139",
+    "hardware/tcl/create_project.tcl": "f202a44ef923148ba1dfe9edde033385362fc53e00c2b1a559dc046a0a08d97c",
+    "hardware/tcl/export_design_metadata.tcl": "59f62bce2600819ef31ecad0def75d88599f2806a13e6894150abb2d4a4cc19a"
+  },
+  "source_hashes_after": {
+    "hardware/rtl/axis_roi_threshold_stats.v": "f65df400554246f70438c02f9ca4c2dd79f08d02ee8c6b4bccd9a326671d994f",
+    "hardware/tcl/build_overlay_inprocess.tcl": "a2e34a32a9fcdbea0f569c1cc630bb0adf6e5d48f4a093794ab00a7ede2ec093",
+    "hardware/tcl/build_overlay.tcl": "761d4c6a8851484eb2249a842d17c8706b1a09ba9ec9980419704c74cefb6139",
+    "hardware/tcl/create_project.tcl": "f202a44ef923148ba1dfe9edde033385362fc53e00c2b1a559dc046a0a08d97c",
+    "hardware/tcl/export_design_metadata.tcl": "59f62bce2600819ef31ecad0def75d88599f2806a13e6894150abb2d4a4cc19a"
+  },
+  "current_sources_match_build": true,
+  "bit_matches_in_process_output": true,
+  "hwh_matches_project_output": true,
+  "bit_header": {
+    "a": "pcb_roi_system_wrapper;UserID=0XFFFFFFFF;Version=2025.2;SW_CRC=8a408221",
+    "b": "7z020clg400",
+    "c": "2026/10/31",
+    "d": "20:46:27",
+    "configuration_bytes": 4045564
+  },
+  "sha256": {
+    "pcb_roi.bit": "8342645ad0c263cab951957f155708a76abeaa1785432e1de81609f60099e48d",
+    "pcb_roi.hwh": "db8ff9b8f5e0210642a2f716e704ca17f27feba545a33d7b074cf66ef5128ec1"
+  },
+  "setup_wns_ns": 0.565,
+  "setup_tns_ns": 0.0,
+  "hold_whs_ns": 0.03,
+  "hold_ths_ns": 0.0,
+  "pulse_width_slack_ns": 3.75,
+  "check_timing": {
+    "no_clock": "0",
+    "constant_clock": "0",
+    "pulse_width_clock": "0",
+    "unconstrained_internal_endpoints": "0",
+    "no_input_delay": "0",
+    "no_output_delay": "0",
+    "multiple_clock": "0",
+    "generated_clocks": "0",
+    "loops": "0",
+    "partial_input_delay": "0",
+    "partial_output_delay": "0",
+    "latch_loops": "0"
+  },
+  "routable_nets": 11202,
+  "routed_nets": 11202,
+  "routing_errors": 0,
+  "blackboxes": 0,
+  "resources": {
+    "Slice LUTs": {
+      "used": 7222,
+      "available": 53200,
+      "percent": 13.58
+    },
+    "Slice Registers": {
+      "used": 7072,
+      "available": 106400,
+      "percent": 6.65
+    },
+    "Block RAM Tile": {
+      "used": 3,
+      "available": 140,
+      "percent": 2.14
+    },
+    "DSPs": {
+      "used": 0,
+      "available": 220,
+      "percent": 0.0
+    }
+  },
+  "drc": {
+    "warning_count": 16,
+    "advisory_count": 4,
+    "error_count": 0,
+    "methodology_lutar1_warning_count": 3
+  },
+  "driver_metadata_check": "PASS (manual HWH parameter extraction; not PYNQ parser execution)",
+  "mmio_mapping": {
+    "axi_dma_0": {
+      "base": "0x40400000",
+      "range": 65536
+    },
+    "axi_gpio_ctrl": {
+      "base": "0x41210000",
+      "range": 65536
+    },
+    "axi_gpio_cfg": {
+      "base": "0x41200000",
+      "range": 65536
+    }
+  },
+  "hwh_systeminfo": {
+    "ARCH": "zynq",
+    "BOARD": "tul.com.tw:pynq-z2:part0:1.0",
+    "DEVICE": "7z020",
+    "NAME": "pcb_roi_system",
+    "PACKAGE": "clg400",
+    "SPEEDGRADE": "-1"
+  },
+  "roi_count": 17,
+  "fclk_mhz": 100,
+  "batch_directory": "evidence/vivado/batch_20261031_204156_384",
+  "generated_report_directory": "evidence/vivado/generated/20261031_204159_39512"
+}

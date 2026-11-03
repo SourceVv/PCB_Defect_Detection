@@ -1,0 +1,11 @@
+# do {D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_unit/unit.do}
+# vsim -wlf D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_unit/unit.wlf -lib D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_unit/modelsim_lib tb_axis_roi_threshold_stats 
+# Start time: 15:00:55 on Oct 31,2026
+# Loading sv_std.std
+# Loading D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_unit/modelsim_lib.tb_axis_roi_threshold_stats
+# Loading D:/codex/2026-10-21/b-2/work/roi_v03_sim/portable_unit/modelsim_lib.axis_roi_threshold_stats
+# PASS: ROI_STATS_UNIT packets=39 input_beats=10380 output_beats=10379 input_stalls=983 output_stalls=3531 back_to_back=4 zero_keep=329
+# ** Note: $finish    : D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/hardware/sim/tb_axis_roi_threshold_stats.sv(326)
+#    Time: 230660 ns  Iteration: 1  Instance: /tb_axis_roi_threshold_stats
+# End time: 15:00:55 on Oct 31,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

@@ -1,0 +1,17 @@
+{
+  "scope": "precomputed independent NumPy masks/counts, raw gray input",
+  "bytes_per_frame": 4812700,
+  "words_per_frame": 1203175,
+  "frames": 3,
+  "files": {
+    "frozen16_config.mem": "0a19d273b66f5f5ec56e2f520d6a8dc1b02569e8e9ca5c8965d21146df03621b",
+    "frozen16_mask.mem": "ae77a2323f73311cdf1483a18098734152337207951cc8af06ea9a39b9d0b43b",
+    "frozen16_stats.mem": "57351eb5daf4255d42d671c7b4d9877c181769868222f005c25ec419ff0ee46c",
+    "full_mask.mem": "46daa7bbafa5d14d3ec7ac8c1074b4a5d6de916806aed83775c6d34dbc3e3183",
+    "full_stats.mem": "c20df529019885db5c075e5c3069f22ca0b4d94ea038a31821b001129553dbbc",
+    "input_gray.mem": "016e84d84049c958f54025dbc90226874fdd2b8eef6dc4ce4d26065e8ffd6ecb",
+    "latest17_config.mem": "130d9979a944c0c0a3ea82f252817641ebc8b8368d2920f6b240f3ed1b55cecc",
+    "latest17_mask.mem": "aea39b2b59b7e6a47786926915edbfe75b5e79615c467c04b836e9d336463b97",
+    "latest17_stats.mem": "580f0d8f203d745b23d4528ec0d7cf248e99d2e585d5aae9d96f866e35981021"
+  }
+}

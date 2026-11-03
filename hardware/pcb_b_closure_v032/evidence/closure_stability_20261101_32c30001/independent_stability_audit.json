@@ -1,0 +1,123 @@
+{
+  "dma_frames": 3439,
+  "duration_seconds": 1800.4786872930017,
+  "requested_duration_seconds": 1800.0,
+  "last_frame_monotonic_seconds": 1800.4161004000016,
+  "minute_checkpoints_verified": 30,
+  "sample_masks_verified": 2,
+  "outer_call_seconds_recomputed": {
+    "n": 3439,
+    "mean": 0.2723949900084327,
+    "min": 0.268172788,
+    "max": 0.430556842
+  },
+  "memory_observations": {
+    "rss_kib": {
+      "samples_available": 3439,
+      "first": 91668,
+      "last": 91868,
+      "min": 91612,
+      "max": 91900,
+      "last_minus_first_kib": 200
+    },
+    "rss_peak_kib": {
+      "samples_available": 3439,
+      "first": 102936,
+      "last": 105980,
+      "min": 102936,
+      "max": 105980,
+      "last_minus_first_kib": 3044
+    },
+    "cma_free_kib": {
+      "samples_available": 3439,
+      "first": 12680,
+      "last": 16124,
+      "min": 8128,
+      "max": 28724,
+      "last_minus_first_kib": 3444
+    },
+    "cma_total_kib": {
+      "samples_available": 3439,
+      "first": 131072,
+      "last": 131072,
+      "min": 131072,
+      "max": 131072,
+      "last_minus_first_kib": 0
+    },
+    "missing_field_counts": {
+      "rss_kib": 0,
+      "rss_peak_kib": 0,
+      "cma_total_kib": 0,
+      "cma_free_kib": 0
+    },
+    "initial": {
+      "rss_kib": 86768,
+      "rss_peak_kib": 102936,
+      "cma_total_kib": 131072,
+      "cma_free_kib": 11660,
+      "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+    },
+    "final": {
+      "rss_kib": 91868,
+      "rss_peak_kib": 105980,
+      "cma_total_kib": 131072,
+      "cma_free_kib": 14148,
+      "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+    },
+    "service_seen_frame_ids": 3439,
+    "interpretation": "Observed RSS/CMA values only. Frame-ID set grows by design; this audit does not infer leak freedom or whole-system stability."
+  },
+  "schema": "pcb-b-closure-independent-audit/0.3.2",
+  "passed": true,
+  "audit_passed": true,
+  "mode": "stability",
+  "source_run_id": "20261101_32c30001",
+  "source_state": "complete",
+  "hardware_executed_by_this_tool": false,
+  "verified_utc": "2026-11-01T12:51:22.679897+00:00",
+  "source_report_sha256": "1eaaebb89e157a2ff5909851e4a568a85e6f44fc54b79db187c2a0e44d4ee639",
+  "provenance_verified": {
+    "closure": {
+      "sha256": "f0d7adae6fd87dc900341fec582a174f8fd3f18248a53990ac8669023892ddb0",
+      "files_verified": 5,
+      "name": "NEW_PACKAGE_MANIFEST.json"
+    },
+    "frozen": {
+      "sha256": "d8fa2acdd46590f1c16ce6a45b757385ccf7080bd928b58937b122a66974a06f",
+      "files_verified": 138,
+      "name": "PACKAGE_MANIFEST.json"
+    },
+    "previous": {
+      "sha256": "9bfc8d2d616824339b01f1e95e8be13ff772e3362bb5a60059039dafeeb4e8a5",
+      "files_verified": 13,
+      "name": "NEW_PACKAGE_MANIFEST.json"
+    }
+  },
+  "reported_environment": {
+    "client_date": "2026-11-01",
+    "board_utc": "2025-05-04T07:56:28.055964+00:00",
+    "python": "3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]",
+    "platform": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+    "machine": "armv7l",
+    "uid": 0,
+    "clock": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    },
+    "cpu_runtime_info": {
+      "scaling_governor": null,
+      "scaling_cur_freq": null,
+      "scaling_min_freq": null,
+      "scaling_max_freq": null
+    },
+    "pynq": "3.1.1",
+    "numpy": "1.21.5"
+  },
+  "scope": "Independent audit of saved B-chain evidence; no board operation, camera, C integration or general classifier claim",
+  "source_jsonl_sha256": "e5990404a28fbd2850ba1edfa23338e767eb7639c78d3291e81381e83f451aa9",
+  "evidence_limits": [
+    "Saved sample BINs are independently compared byte-for-byte with frozen pixels. Every other frame is audited through its recorded hash/full-comparison flag/statistics/protocol/safety evidence and frozen executable source bindings; its raw output BIN was not archived separately."
+  ]
+}

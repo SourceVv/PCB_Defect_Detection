@@ -1,0 +1,96 @@
+{
+  "scope": "pure RTL simulation; no physical DMA/board claim",
+  "final_rtl_sha256": "f65df400554246f70438c02f9ca4c2dd79f08d02ee8c6b4bccd9a326671d994f",
+  "historical_single_stage_rtl_sha256": "b01fef09e3adab9eee3b10c332f1340d0594a71059aa0802656c83ec53754995",
+  "final_pipeline": {
+    "minimum_input_interval_clocks": 3,
+    "fullframe_frames": 3,
+    "fullframe_input_beats": 3609525,
+    "fullframe_output_beats": 3609525,
+    "fullframe_bytes": 14438100,
+    "fullframe_white_pixels": [
+      1975978,
+      326860,
+      314801
+    ],
+    "fullframe_roi_counters_per_frame": 17,
+    "input_stalls": 7858878,
+    "output_stalls": 924843,
+    "simultaneous": 3603661,
+    "input_gaps": 290885,
+    "unit_packets": 39,
+    "unit_input_beats": 10380,
+    "unit_output_beats": 10379,
+    "unit_deliberately_reset_discarded_beats": 1
+  },
+  "independent_pipeline_review": {
+    "packets": 44,
+    "input_beats": 10392,
+    "output_beats": 10388,
+    "deliberately_reset_discarded_beats": 4,
+    "input_stalls": 13029,
+    "output_stalls": 2702,
+    "back_to_back_packet_boundary_handshakes": 4,
+    "zero_keep_beats": 329,
+    "extra_coverage": [
+      "soft reset COMPARE",
+      "soft reset ACCUM",
+      "soft reset blocked OUT",
+      "single-beat LAST internal-busy config rejection",
+      "soft reset cfg_pending drops request but retains geometry"
+    ]
+  },
+  "files": {
+    "pipeline_final/axis_roi_pipeline_f65d.v.txt": "f65df400554246f70438c02f9ca4c2dd79f08d02ee8c6b4bccd9a326671d994f",
+    "pipeline_final/fullframe_compile.log": "fb1a028dee7a8d1aec56cbec1ad1158265508c92aad759aeeff5507ffe969304",
+    "pipeline_final/fullframe_simulation.log": "578d6e93de42216a50aa78ab94605e9b1df0f58dc1576c89d19fbf327821f57c",
+    "pipeline_final/unit_compile.log": "810be92bfe2321de87f45815db9a56a83270cdb1bfbfefd9e5dba5f6992a9904",
+    "pipeline_final/unit_simulation.log": "aba4424095c05ef8b2b8a2c2cef4b795b0e5572ea067c232fc324030df26997d",
+    "pipeline_review/compile.log": "44752ef2ba4670901900b392b474500643f852ad0af2a1e1b608e729ae0e98c2",
+    "pipeline_review/simulation.log": "d833f6a6628a2fb363e14b1f5d4fcc9055173d7aebe87456d3fda08c8975114f",
+    "pipeline_review/tb_roi_pipeline_review.sv": "bf3676cf7b42cdd9b8eb0834d33ed04fa0867b26c091a7a270d323faffde26ec",
+    "saturation_review/compile.log": "0ba4652380e811d3c9743c46765070cfef7e00fb435c6e1d755f932c3a43db3c",
+    "saturation_review/simulation.log": "d177fd283eb75fcb94f239046c8b489c420e3327abbd199a733a36f754c6b351",
+    "saturation_review/tb_roi_saturation_review.sv": "34153868e31e11981f12b2a8f00e762f447c88ba34a8f5a067d702c80f7ff8f6",
+    "history_pipeline_99317/axis_roi_pipeline_99317.v.txt": "99317f90e92642e1dfbe404a005ebfd25dfc87163b15265796dd46ff242e7fc1",
+    "history_pipeline_99317/pipeline_final/fullframe_compile.log": "e460c054fa02633b1a410ffa88fb721ae71f1ce50c5e5fd96e94562f8a3e2343",
+    "history_pipeline_99317/pipeline_final/fullframe_simulation.log": "3b17550129b02f1cf737c987a33a4c3035d011ffcbbb1fc2a3b2c7fe619edc14",
+    "history_pipeline_99317/pipeline_final/unit_compile.log": "886bfc7ecbbf629277fe358c6e30d1ee5f54dddfced1a533f853793de00b790b",
+    "history_pipeline_99317/pipeline_final/unit_simulation.log": "988f76e5482e6af76f3eec30665ab96330a90754d192442122056a972f34447e",
+    "history_pipeline_99317/pipeline_review/simulation.log": "f7087e51d7d4cd03e84668fc0ccfd7a8131678df0b56224994d39457e5ff8177",
+    "history_pipeline_99317/pipeline_review/tb_roi_pipeline_review.sv": "bf3676cf7b42cdd9b8eb0834d33ed04fa0867b26c091a7a270d323faffde26ec",
+    "history_pipeline_99317/simulation_version_summary.json": "43f5d7192752167b956d9ed68917ea95fa73390b14a4e067053708726e948d83",
+    "historical_single_stage/axis_roi_before_pipeline.v.txt": "b01fef09e3adab9eee3b10c332f1340d0594a71059aa0802656c83ec53754995",
+    "historical_single_stage/fullframe_compile.log": "6ee2420411b756e09cdb189acb117a4afe982fad31aa3353fcb0963b5c213090",
+    "historical_single_stage/fullframe_simulation.log": "fe7dae58c586b700e444ec38719ffc9c6a7c7290666398baedf15fb8c4c60599",
+    "historical_single_stage/unit_compile.log": "0809df93f15794f33a2806bd8f99e958ca96bb3d4b61aa4b06ddb3fc546d55eb",
+    "historical_single_stage/unit_simulation.log": "1eef45baaad431577d0f098f3c7624c878501f40ea7a30c157c94b1bd00c96ee"
+  },
+  "previous_pipeline_rtl_sha256": "99317f90e92642e1dfbe404a005ebfd25dfc87163b15265796dd46ff242e7fc1",
+  "timing_status_note": "Functional regression passed; consult separate current Vivado reports before claiming timing/release acceptance.",
+  "timing_fix": {
+    "changes": [
+      "removed sum_y>height serial feedback, retain old-y saturation",
+      "registered beat_final_position",
+      "byte/LAST position errors computed in COMPARE and accumulated one cycle later"
+    ],
+    "minimum_input_interval_clocks": 3,
+    "abi": 3
+  },
+  "saturation_boundary_review": {
+    "packets": 55,
+    "input_beats": 43172,
+    "output_beats": 43168,
+    "deliberately_reset_discarded_beats": 4,
+    "input_stalls": 53960,
+    "output_stalls": 10871,
+    "back_to_back": 4,
+    "coverage": [
+      "width1/2/3 within-beat overrun",
+      "width1/2/3 multi-beat overrun",
+      "legal partial KEEP frame",
+      "height65535 and one-extra-byte overflow",
+      "legal height65535 frame"
+    ]
+  }
+}

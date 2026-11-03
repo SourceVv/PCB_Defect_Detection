@@ -1,0 +1,1088 @@
+{
+  "schema": "pcb-b-closure/0.3.2",
+  "mode": "stability",
+  "run_id": "20261101_32c30001",
+  "state": "complete",
+  "passed": true,
+  "run_directory": "/home/xilinx/jupyter_notebooks/pcb_b_closure_v032/evidence/closure_stability_20261101_32c30001",
+  "hardware_executed": true,
+  "environment": {
+    "client_date": "2026-11-01",
+    "board_utc": "2025-05-04T07:56:28.055964+00:00",
+    "python": "3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]",
+    "platform": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+    "machine": "armv7l",
+    "uid": 0,
+    "clock": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    },
+    "cpu_runtime_info": {
+      "scaling_governor": null,
+      "scaling_cur_freq": null,
+      "scaling_min_freq": null,
+      "scaling_max_freq": null
+    },
+    "pynq": "3.1.1",
+    "numpy": "1.21.5"
+  },
+  "manifests": [
+    {
+      "path": "/home/xilinx/jupyter_notebooks/pcb_b_closure_v032/NEW_PACKAGE_MANIFEST.json",
+      "sha256": "f0d7adae6fd87dc900341fec582a174f8fd3f18248a53990ac8669023892ddb0",
+      "files_verified": 5
+    },
+    {
+      "path": "/home/xilinx/jupyter_notebooks/pcb_b_roi_v03/PACKAGE_MANIFEST.json",
+      "sha256": "d8fa2acdd46590f1c16ce6a45b757385ccf7080bd928b58937b122a66974a06f",
+      "files_verified": 138
+    },
+    {
+      "path": "/home/xilinx/jupyter_notebooks/pcb_b_integration_v031/NEW_PACKAGE_MANIFEST.json",
+      "sha256": "9bfc8d2d616824339b01f1e95e8be13ff772e3362bb5a60059039dafeeb4e8a5",
+      "files_verified": 13
+    }
+  ],
+  "source_hashes": {
+    "/home/xilinx/jupyter_notebooks/pcb_b_closure_v032/software/aoi_roi_service.py": "579bd7213c003dc835c88bd1407a2881582f11a1ecdf4f5c2fcb92ad5a20d867",
+    "/home/xilinx/jupyter_notebooks/pcb_b_closure_v032/tools/board_closure_worker.py": "4e4374ea1f157769f5e97fa18153dcc95afb77c3c0a3fc233aadc42ada23ed0c",
+    "/home/xilinx/jupyter_notebooks/pcb_b_closure_v032/tools/profile_masks.py": "538c13405b256f3e833dec1c46be9f35dfe482842acb9a1d9740d64e54eb2c74",
+    "/home/xilinx/jupyter_notebooks/pcb_b_integration_v031/software/aoi_roi_service.py": "f01ea4a5276762cb97ca585b31a0ff365264e8197504b50f5773401fce08fbd2",
+    "/home/xilinx/jupyter_notebooks/pcb_b_roi_v03/software/roi_driver.py": "08982c4f1021ac037227cfc0219f74a4fab7535ee71e713766bb7607a62b3a05",
+    "/home/xilinx/jupyter_notebooks/pcb_b_roi_v03/software/transport.py": "fbfbd9832b3208d27c10224b5f723a54556cf4ae9a0f9073bcde36baf6daff72",
+    "/home/xilinx/jupyter_notebooks/pcb_b_roi_v03/release/roi_v0_3/pcb_roi.bit": "8342645ad0c263cab951957f155708a76abeaa1785432e1de81609f60099e48d",
+    "/home/xilinx/jupyter_notebooks/pcb_b_roi_v03/release/roi_v0_3/pcb_roi.hwh": "db8ff9b8f5e0210642a2f716e704ca17f27feba545a33d7b074cf66ef5128ec1"
+  },
+  "candidate": "bytes_count",
+  "seed": 20261101,
+  "warmup_count": 3,
+  "measurement_count": 30,
+  "configuration": {
+    "width": 2533,
+    "height": 1900,
+    "threshold": 120,
+    "invert": true,
+    "roi_enable": true,
+    "rois": [
+      {
+        "name": "U1",
+        "box": [
+          2125,
+          1095,
+          2360,
+          1275
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "U2",
+        "box": [
+          1360,
+          594,
+          1602,
+          740
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "missing"
+      },
+      {
+        "name": "U5",
+        "box": [
+          1510,
+          1290,
+          1835,
+          1486
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "C14",
+        "box": [
+          1180,
+          600,
+          1250,
+          645
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "tilt"
+      },
+      {
+        "name": "C17",
+        "box": [
+          1180,
+          635,
+          1250,
+          680
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "tilt"
+      },
+      {
+        "name": "C24",
+        "box": [
+          1180,
+          790,
+          1250,
+          835
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "tilt"
+      },
+      {
+        "name": "X1",
+        "box": [
+          1342,
+          259,
+          1494,
+          399
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "X2",
+        "box": [
+          1824,
+          1235,
+          2026,
+          1425
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "SW2",
+        "box": [
+          1748,
+          836,
+          1900,
+          1026
+        ],
+        "enabled": true,
+        "source_feature": "area_inv",
+        "source_type": "missing"
+      },
+      {
+        "name": "MIC1",
+        "box": [
+          633,
+          798,
+          744,
+          988
+        ],
+        "enabled": true,
+        "source_feature": "hcorr",
+        "source_type": "missing"
+      },
+      {
+        "name": "U3",
+        "box": [
+          1368,
+          1140,
+          1520,
+          1330
+        ],
+        "enabled": true,
+        "source_feature": "hcorr",
+        "source_type": "missing"
+      },
+      {
+        "name": "U6",
+        "box": [
+          1520,
+          836,
+          1672,
+          1026
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "U4",
+        "box": [
+          2085,
+          465,
+          2185,
+          600
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "R12",
+        "box": [
+          507,
+          704,
+          659,
+          817
+        ],
+        "enabled": true,
+        "source_feature": "hcorr",
+        "source_type": "missing"
+      },
+      {
+        "name": "C13",
+        "box": [
+          456,
+          589,
+          608,
+          760
+        ],
+        "enabled": true,
+        "source_feature": "cd40",
+        "source_type": "missing"
+      },
+      {
+        "name": "L2",
+        "box": [
+          1267,
+          1121,
+          1444,
+          1292
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      },
+      {
+        "name": "C20",
+        "box": [
+          1241,
+          1121,
+          1393,
+          1292
+        ],
+        "enabled": true,
+        "source_feature": "sad",
+        "source_type": "missing"
+      }
+    ]
+  },
+  "input_raw_sha256": "fa54d2e3bf01f7f0d66481c4fcbfd43b8fcabe16467d9b9cc46f3cad4971377f",
+  "expected_output_raw_sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be",
+  "expected_stats": {
+    "roi_counts": {
+      "U1": 30056,
+      "U2": 34214,
+      "U5": 54347,
+      "C14": 2618,
+      "C17": 2568,
+      "C24": 2264,
+      "X1": 15064,
+      "X2": 32318,
+      "SW2": 22761,
+      "MIC1": 18077,
+      "U3": 25598,
+      "U6": 24891,
+      "U4": 12059,
+      "R12": 14346,
+      "C13": 21524,
+      "L2": 26893,
+      "C20": 23469
+    },
+    "roi_counts_by_index": [
+      30056,
+      34214,
+      54347,
+      2618,
+      2568,
+      2264,
+      15064,
+      32318,
+      22761,
+      18077,
+      25598,
+      24891,
+      12059,
+      14346,
+      21524,
+      26893,
+      23469
+    ],
+    "output_white_pixels": 326860,
+    "valid_pixels": 4812700,
+    "roi_union_pixels": 389266
+  },
+  "timing_scope": "Full API call includes strict checks, copies, DMA allocation/cache/reset/wait/free and stats; CPU union cached. Hash/golden checks and evidence writes outside timed calls. Not pure PL latency/FPS.",
+  "no_camera": true,
+  "initial_memory": {
+    "rss_kib": 86768,
+    "rss_peak_kib": 102936,
+    "cma_total_kib": 131072,
+    "cma_free_kib": 11660,
+    "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+  },
+  "initial_status": {
+    "raw": 768,
+    "abi": 3,
+    "busy": false,
+    "inpacket": false,
+    "cfg_ack": false,
+    "cfg_error": false,
+    "frame_error": false,
+    "completed_packets": 0
+  },
+  "configuration_once": {
+    "state": "configured",
+    "configuration": {
+      "width": 2533,
+      "height": 1900,
+      "rois": [
+        {
+          "name": "U1",
+          "box": [
+            2125,
+            1095,
+            2360,
+            1275
+          ],
+          "enabled": true
+        },
+        {
+          "name": "U2",
+          "box": [
+            1360,
+            594,
+            1602,
+            740
+          ],
+          "enabled": true
+        },
+        {
+          "name": "U5",
+          "box": [
+            1510,
+            1290,
+            1835,
+            1486
+          ],
+          "enabled": true
+        },
+        {
+          "name": "C14",
+          "box": [
+            1180,
+            600,
+            1250,
+            645
+          ],
+          "enabled": true
+        },
+        {
+          "name": "C17",
+          "box": [
+            1180,
+            635,
+            1250,
+            680
+          ],
+          "enabled": true
+        },
+        {
+          "name": "C24",
+          "box": [
+            1180,
+            790,
+            1250,
+            835
+          ],
+          "enabled": true
+        },
+        {
+          "name": "X1",
+          "box": [
+            1342,
+            259,
+            1494,
+            399
+          ],
+          "enabled": true
+        },
+        {
+          "name": "X2",
+          "box": [
+            1824,
+            1235,
+            2026,
+            1425
+          ],
+          "enabled": true
+        },
+        {
+          "name": "SW2",
+          "box": [
+            1748,
+            836,
+            1900,
+            1026
+          ],
+          "enabled": true
+        },
+        {
+          "name": "MIC1",
+          "box": [
+            633,
+            798,
+            744,
+            988
+          ],
+          "enabled": true
+        },
+        {
+          "name": "U3",
+          "box": [
+            1368,
+            1140,
+            1520,
+            1330
+          ],
+          "enabled": true
+        },
+        {
+          "name": "U6",
+          "box": [
+            1520,
+            836,
+            1672,
+            1026
+          ],
+          "enabled": true
+        },
+        {
+          "name": "U4",
+          "box": [
+            2085,
+            465,
+            2185,
+            600
+          ],
+          "enabled": true
+        },
+        {
+          "name": "R12",
+          "box": [
+            507,
+            704,
+            659,
+            817
+          ],
+          "enabled": true
+        },
+        {
+          "name": "C13",
+          "box": [
+            456,
+            589,
+            608,
+            760
+          ],
+          "enabled": true
+        },
+        {
+          "name": "L2",
+          "box": [
+            1267,
+            1121,
+            1444,
+            1292
+          ],
+          "enabled": true
+        },
+        {
+          "name": "C20",
+          "box": [
+            1241,
+            1121,
+            1393,
+            1292
+          ],
+          "enabled": true
+        }
+      ],
+      "threshold": 120,
+      "invert": true,
+      "roi_enable": true
+    },
+    "status": {
+      "raw": 772,
+      "abi": 3,
+      "busy": false,
+      "inpacket": false,
+      "cfg_ack": true,
+      "cfg_error": false,
+      "frame_error": false,
+      "completed_packets": 0
+    },
+    "configuration_seconds": 0.0199974339993787
+  },
+  "requested_duration_seconds": 1800,
+  "validated_hardware_frames": 3439,
+  "errors": 0,
+  "checkpoints": [
+    {
+      "frames": 115,
+      "elapsed_monotonic_seconds": 60.39864014400155,
+      "board_utc": "2025-05-04T07:57:31.623731+00:00",
+      "memory": {
+        "rss_kib": 91624,
+        "rss_peak_kib": 105760,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 11068,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 115,
+      "errors": 0,
+      "service_seen_frame_ids": 115
+    },
+    {
+      "frames": 230,
+      "elapsed_monotonic_seconds": 120.26448389500001,
+      "board_utc": "2025-05-04T07:58:31.489385+00:00",
+      "memory": {
+        "rss_kib": 91628,
+        "rss_peak_kib": 105760,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 14348,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 230,
+      "errors": 0,
+      "service_seen_frame_ids": 230
+    },
+    {
+      "frames": 342,
+      "elapsed_monotonic_seconds": 180.44721575000221,
+      "board_utc": "2025-05-04T07:59:31.674754+00:00",
+      "memory": {
+        "rss_kib": 91692,
+        "rss_peak_kib": 105788,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 28124,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 342,
+      "errors": 0,
+      "service_seen_frame_ids": 342
+    },
+    {
+      "frames": 457,
+      "elapsed_monotonic_seconds": 240.20138157500332,
+      "board_utc": "2025-05-04T08:00:31.426336+00:00",
+      "memory": {
+        "rss_kib": 91644,
+        "rss_peak_kib": 105788,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 28208,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 457,
+      "errors": 0,
+      "service_seen_frame_ids": 457
+    },
+    {
+      "frames": 572,
+      "elapsed_monotonic_seconds": 300.386923060003,
+      "board_utc": "2025-05-04T08:01:31.611802+00:00",
+      "memory": {
+        "rss_kib": 91652,
+        "rss_peak_kib": 105788,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 27572,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 572,
+      "errors": 0,
+      "service_seen_frame_ids": 572
+    },
+    {
+      "frames": 686,
+      "elapsed_monotonic_seconds": 360.32801561700035,
+      "board_utc": "2025-05-04T08:02:31.552973+00:00",
+      "memory": {
+        "rss_kib": 91672,
+        "rss_peak_kib": 105788,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 26568,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 686,
+      "errors": 0,
+      "service_seen_frame_ids": 686
+    },
+    {
+      "frames": 801,
+      "elapsed_monotonic_seconds": 420.3349742110004,
+      "board_utc": "2025-05-04T08:03:31.559865+00:00",
+      "memory": {
+        "rss_kib": 91736,
+        "rss_peak_kib": 105816,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 25388,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 801,
+      "errors": 0,
+      "service_seen_frame_ids": 801
+    },
+    {
+      "frames": 916,
+      "elapsed_monotonic_seconds": 480.1718240780028,
+      "board_utc": "2025-05-04T08:04:31.396784+00:00",
+      "memory": {
+        "rss_kib": 91676,
+        "rss_peak_kib": 105820,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 25620,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 916,
+      "errors": 0,
+      "service_seen_frame_ids": 916
+    },
+    {
+      "frames": 1031,
+      "elapsed_monotonic_seconds": 540.3892745060002,
+      "board_utc": "2025-05-04T08:05:31.614369+00:00",
+      "memory": {
+        "rss_kib": 91684,
+        "rss_peak_kib": 105820,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 18992,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 1031,
+      "errors": 0,
+      "service_seen_frame_ids": 1031
+    },
+    {
+      "frames": 1145,
+      "elapsed_monotonic_seconds": 600.0722637150029,
+      "board_utc": "2025-05-04T08:06:31.297230+00:00",
+      "memory": {
+        "rss_kib": 91692,
+        "rss_peak_kib": 105820,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 18652,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 1145,
+      "errors": 0,
+      "service_seen_frame_ids": 1145
+    },
+    {
+      "frames": 1259,
+      "elapsed_monotonic_seconds": 660.0100768010016,
+      "board_utc": "2025-05-04T08:07:31.235099+00:00",
+      "memory": {
+        "rss_kib": 91700,
+        "rss_peak_kib": 105844,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 18088,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 1259,
+      "errors": 0,
+      "service_seen_frame_ids": 1259
+    },
+    {
+      "frames": 1373,
+      "elapsed_monotonic_seconds": 720.0659783490009,
+      "board_utc": "2025-05-04T08:08:31.290877+00:00",
+      "memory": {
+        "rss_kib": 91752,
+        "rss_peak_kib": 105844,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 20264,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 1373,
+      "errors": 0,
+      "service_seen_frame_ids": 1373
+    },
+    {
+      "frames": 1489,
+      "elapsed_monotonic_seconds": 780.5159903690001,
+      "board_utc": "2025-05-04T08:09:31.740949+00:00",
+      "memory": {
+        "rss_kib": 91712,
+        "rss_peak_kib": 105844,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 20156,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 1489,
+      "errors": 0,
+      "service_seen_frame_ids": 1489
+    },
+    {
+      "frames": 1603,
+      "elapsed_monotonic_seconds": 840.2736349630031,
+      "board_utc": "2025-05-04T08:10:31.498597+00:00",
+      "memory": {
+        "rss_kib": 91720,
+        "rss_peak_kib": 105844,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 19744,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 1603,
+      "errors": 0,
+      "service_seen_frame_ids": 1603
+    },
+    {
+      "frames": 1717,
+      "elapsed_monotonic_seconds": 900.2350694460001,
+      "board_utc": "2025-05-04T08:11:31.459968+00:00",
+      "memory": {
+        "rss_kib": 91728,
+        "rss_peak_kib": 105892,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 19464,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 1717,
+      "errors": 0,
+      "service_seen_frame_ids": 1717
+    },
+    {
+      "frames": 1832,
+      "elapsed_monotonic_seconds": 960.4906573500011,
+      "board_utc": "2025-05-04T08:12:31.715562+00:00",
+      "memory": {
+        "rss_kib": 91788,
+        "rss_peak_kib": 105892,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 19264,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 1832,
+      "errors": 0,
+      "service_seen_frame_ids": 1832
+    },
+    {
+      "frames": 1945,
+      "elapsed_monotonic_seconds": 1020.1009910520006,
+      "board_utc": "2025-05-04T08:13:31.325952+00:00",
+      "memory": {
+        "rss_kib": 91744,
+        "rss_peak_kib": 105892,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 19056,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 1945,
+      "errors": 0,
+      "service_seen_frame_ids": 1945
+    },
+    {
+      "frames": 2059,
+      "elapsed_monotonic_seconds": 1080.128429135002,
+      "board_utc": "2025-05-04T08:14:31.353399+00:00",
+      "memory": {
+        "rss_kib": 91728,
+        "rss_peak_kib": 105892,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 18856,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 2059,
+      "errors": 0,
+      "service_seen_frame_ids": 2059
+    },
+    {
+      "frames": 2174,
+      "elapsed_monotonic_seconds": 1140.3906804730032,
+      "board_utc": "2025-05-04T08:15:31.615573+00:00",
+      "memory": {
+        "rss_kib": 91752,
+        "rss_peak_kib": 105892,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 18552,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 2174,
+      "errors": 0,
+      "service_seen_frame_ids": 2174
+    },
+    {
+      "frames": 2289,
+      "elapsed_monotonic_seconds": 1200.3065944020018,
+      "board_utc": "2025-05-04T08:16:31.531492+00:00",
+      "memory": {
+        "rss_kib": 91764,
+        "rss_peak_kib": 105892,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 18332,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 2289,
+      "errors": 0,
+      "service_seen_frame_ids": 2289
+    },
+    {
+      "frames": 2405,
+      "elapsed_monotonic_seconds": 1260.3586739010025,
+      "board_utc": "2025-05-04T08:17:31.583681+00:00",
+      "memory": {
+        "rss_kib": 91768,
+        "rss_peak_kib": 105892,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 18104,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 2405,
+      "errors": 0,
+      "service_seen_frame_ids": 2405
+    },
+    {
+      "frames": 2520,
+      "elapsed_monotonic_seconds": 1320.2953459400014,
+      "board_utc": "2025-05-04T08:18:31.520330+00:00",
+      "memory": {
+        "rss_kib": 91776,
+        "rss_peak_kib": 105892,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 17992,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 2520,
+      "errors": 0,
+      "service_seen_frame_ids": 2520
+    },
+    {
+      "frames": 2635,
+      "elapsed_monotonic_seconds": 1380.434532362,
+      "board_utc": "2025-05-04T08:19:31.659425+00:00",
+      "memory": {
+        "rss_kib": 91872,
+        "rss_peak_kib": 105952,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 17832,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 2635,
+      "errors": 0,
+      "service_seen_frame_ids": 2635
+    },
+    {
+      "frames": 2750,
+      "elapsed_monotonic_seconds": 1440.338182931002,
+      "board_utc": "2025-05-04T08:20:31.563143+00:00",
+      "memory": {
+        "rss_kib": 91824,
+        "rss_peak_kib": 105952,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 17524,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 2750,
+      "errors": 0,
+      "service_seen_frame_ids": 2750
+    },
+    {
+      "frames": 2865,
+      "elapsed_monotonic_seconds": 1500.4981329830007,
+      "board_utc": "2025-05-04T08:21:31.723103+00:00",
+      "memory": {
+        "rss_kib": 91796,
+        "rss_peak_kib": 105952,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 17292,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 2865,
+      "errors": 0,
+      "service_seen_frame_ids": 2865
+    },
+    {
+      "frames": 2979,
+      "elapsed_monotonic_seconds": 1560.1948504010034,
+      "board_utc": "2025-05-04T08:22:31.419742+00:00",
+      "memory": {
+        "rss_kib": 91892,
+        "rss_peak_kib": 105972,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 17112,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 2979,
+      "errors": 0,
+      "service_seen_frame_ids": 2979
+    },
+    {
+      "frames": 3095,
+      "elapsed_monotonic_seconds": 1620.4218811669998,
+      "board_utc": "2025-05-04T08:23:31.646842+00:00",
+      "memory": {
+        "rss_kib": 91880,
+        "rss_peak_kib": 105980,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 16828,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 3095,
+      "errors": 0,
+      "service_seen_frame_ids": 3095
+    },
+    {
+      "frames": 3210,
+      "elapsed_monotonic_seconds": 1680.5023177540024,
+      "board_utc": "2025-05-04T08:24:31.727287+00:00",
+      "memory": {
+        "rss_kib": 91816,
+        "rss_peak_kib": 105980,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 16604,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 3210,
+      "errors": 0,
+      "service_seen_frame_ids": 3210
+    },
+    {
+      "frames": 3324,
+      "elapsed_monotonic_seconds": 1740.447607653001,
+      "board_utc": "2025-05-04T08:25:31.672565+00:00",
+      "memory": {
+        "rss_kib": 91800,
+        "rss_peak_kib": 105980,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 16408,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 3324,
+      "errors": 0,
+      "service_seen_frame_ids": 3324
+    },
+    {
+      "frames": 3439,
+      "elapsed_monotonic_seconds": 1800.4161004000016,
+      "board_utc": "2025-05-04T08:26:31.641001+00:00",
+      "memory": {
+        "rss_kib": 91868,
+        "rss_peak_kib": 105980,
+        "cma_total_kib": 131072,
+        "cma_free_kib": 16124,
+        "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+      },
+      "last_packet_count": 3439,
+      "errors": 0,
+      "service_seen_frame_ids": 3439
+    }
+  ],
+  "samples": {
+    "first": {
+      "file": "first_stability_mask.bin",
+      "frame_number": 1,
+      "bytes": 4812700,
+      "sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be"
+    },
+    "last": {
+      "file": "last_stability_mask.bin",
+      "frame_number": 3439,
+      "bytes": 4812700,
+      "sha256": "d754c1f1675f8c32442132c892d0c4a800819f2da2493c7156584a13918751be"
+    }
+  },
+  "loop_started_utc": "2025-05-04T07:56:31.225086+00:00",
+  "memory_note": "Samples after each safe transfer; frame-id identity set grows by design. All per-frame records go to JSONL, not an unbounded in-memory list.",
+  "elapsed_monotonic_seconds": 1800.4786872930017,
+  "current_memory": {
+    "rss_kib": 91868,
+    "rss_peak_kib": 105980,
+    "cma_total_kib": 131072,
+    "cma_free_kib": 16124,
+    "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+  },
+  "last_driver_safety": {
+    "poisoned": false,
+    "active": false,
+    "dma_safe": true,
+    "buffers": 0,
+    "retained_buffers": 0,
+    "last_transfer": {
+      "stage": "complete",
+      "nbytes": 4812700,
+      "threshold": 120,
+      "bypass": false,
+      "packets_before": 3438,
+      "reset_tx_status": 1,
+      "reset_rx_status": 1,
+      "tx_status": 4098,
+      "rx_status": 4098,
+      "received_bytes": 4812700,
+      "packets_after": 3439,
+      "packet_delta": 1,
+      "algorithm_status": 225379076,
+      "elapsed_seconds": 0.11758847899909597,
+      "invert": true,
+      "roi_enable": true
+    }
+  },
+  "service_seen_frame_ids": 3439,
+  "loop_completed_utc": "2025-05-04T08:26:31.900290+00:00",
+  "final_memory": {
+    "rss_kib": 91868,
+    "rss_peak_kib": 105980,
+    "cma_total_kib": 131072,
+    "cma_free_kib": 14148,
+    "source": "/proc/self/status VmRSS/VmHWM; /proc/meminfo CmaTotal/CmaFree"
+  },
+  "outer_call_seconds": {
+    "n": 3439,
+    "mean": 0.2723949900084329,
+    "min": 0.268172788,
+    "max": 0.430556842
+  },
+  "stability_scope": "Repeated frozen latest17 B hardware chain with strict checks; no camera or whole-system C stability claim",
+  "final_status": {
+    "raw": 225379076,
+    "abi": 3,
+    "busy": false,
+    "inpacket": false,
+    "cfg_ack": true,
+    "cfg_error": false,
+    "frame_error": false,
+    "completed_packets": 3439
+  },
+  "final_driver_safety": {
+    "poisoned": false,
+    "active": false,
+    "dma_safe": true,
+    "buffers": 0,
+    "retained_buffers": 0,
+    "last_transfer": {
+      "stage": "complete",
+      "nbytes": 4812700,
+      "threshold": 120,
+      "bypass": false,
+      "packets_before": 3438,
+      "reset_tx_status": 1,
+      "reset_rx_status": 1,
+      "tx_status": 4098,
+      "rx_status": 4098,
+      "received_bytes": 4812700,
+      "packets_after": 3439,
+      "packet_delta": 1,
+      "algorithm_status": 225379076,
+      "elapsed_seconds": 0.11758847899909597,
+      "invert": true,
+      "roi_enable": true
+    }
+  },
+  "completed_utc": "2025-05-04T08:26:31.902817+00:00"
+}

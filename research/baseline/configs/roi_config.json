@@ -1,0 +1,314 @@
+{
+  "version": "0.4.0",
+  "note": "Manually corrected body/pad ROIs; thresholds recalibrated on S01 development data, not independent accuracy. R12 has a small margin.",
+  "input_size": [
+    2533,
+    1900
+  ],
+  "coordinate_system": "pixel_xyxy_leftclosed",
+  "alignment": {
+    "method": "orb_ransac",
+    "reference_image": "../data/raw/S01/S01_B01_1.jpg",
+    "max_shift_px": 160
+  },
+  "rois": {
+    "U1": {
+      "box": [
+        2075,
+        1105,
+        2225,
+        1325
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 37.49890899658203,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "sad",
+      "op": ">"
+    },
+    "U2": {
+      "box": [
+        1360,
+        505,
+        1615,
+        770
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 54409.0,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "area_inv",
+      "op": "<",
+      "threshold_inv": 120
+    },
+    "U5": {
+      "box": [
+        1545,
+        1320,
+        1750,
+        1460
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 0.9650704225352112,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "cd40",
+      "op": "<"
+    },
+    "C14": {
+      "box": [
+        1250,
+        626,
+        1304,
+        660
+      ],
+      "type": "tilt",
+      "invert": true,
+      "threshold": 120,
+      "source": "manual_body_and_pads_review_v0.4.0"
+    },
+    "C17": {
+      "box": [
+        1250,
+        661,
+        1304,
+        695
+      ],
+      "type": "tilt",
+      "invert": true,
+      "threshold": 120,
+      "source": "manual_body_and_pads_review_v0.4.0"
+    },
+    "C24": {
+      "box": [
+        1240,
+        803,
+        1315,
+        846
+      ],
+      "type": "tilt",
+      "invert": true,
+      "threshold": 120,
+      "source": "manual_body_and_pads_review_v0.4.0"
+    },
+    "X1": {
+      "box": [
+        1360,
+        320,
+        1475,
+        421
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 0.40985957540911105,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "cd40",
+      "op": ">"
+    },
+    "X2": {
+      "box": [
+        1790,
+        1380,
+        2040,
+        1505
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 0.3182821310828528,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "cd40",
+      "op": ">"
+    },
+    "SW2": {
+      "box": [
+        1830,
+        812,
+        2005,
+        1000
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 39.07402801513672,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "sad",
+      "op": ">",
+      "threshold_inv": 120
+    },
+    "MIC1": {
+      "box": [
+        537,
+        813,
+        687,
+        952
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 0.36282468883616315,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "hcorr",
+      "op": "<"
+    },
+    "U3": {
+      "box": [
+        1400,
+        1100,
+        1505,
+        1205
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 0.498792772607744,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "hcorr",
+      "op": "<"
+    },
+    "U6": {
+      "box": [
+        1570,
+        960,
+        1670,
+        1045
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 34.674705505371094,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "sad",
+      "op": ">"
+    },
+    "U4": {
+      "box": [
+        2080,
+        495,
+        2170,
+        595
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 34.140610694885254,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "sad",
+      "op": ">"
+    },
+    "C8": {
+      "box": [
+        1290,
+        414,
+        1355,
+        449
+      ],
+      "type": "lifted",
+      "invert": true,
+      "threshold": 120,
+      "active": false,
+      "source": "manual_body_and_pads_review_v0.4.0"
+    },
+    "C25": {
+      "box": [
+        1240,
+        718,
+        1315,
+        759
+      ],
+      "type": "lifted",
+      "invert": true,
+      "threshold": 120,
+      "active": false,
+      "source": "manual_body_and_pads_review_v0.4.0"
+    },
+    "R12": {
+      "box": [
+        557,
+        659,
+        588,
+        720
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 0.8246753246753247,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "cd40",
+      "op": ">"
+    },
+    "C13": {
+      "box": [
+        528,
+        658,
+        557,
+        718
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 0.5311147186147186,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "cd40",
+      "op": "<"
+    },
+    "L2": {
+      "box": [
+        1340,
+        1113,
+        1385,
+        1200
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 45.096168518066406,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "sad",
+      "op": ">"
+    },
+    "C20": {
+      "box": [
+        1282,
+        1113,
+        1333,
+        1200
+      ],
+      "type": "missing",
+      "invert": true,
+      "threshold": 33.495492935180664,
+      "source": "manual_body_and_pads_review_v0.4.0",
+      "feature": "sad",
+      "op": ">"
+    }
+  },
+  "detect_tasks": {
+    "missing": [
+      "U1",
+      "U2",
+      "U5",
+      "X1",
+      "X2",
+      "SW2",
+      "MIC1",
+      "U3",
+      "U6",
+      "U4",
+      "R12",
+      "C13",
+      "L2",
+      "C20"
+    ],
+    "rotated": [
+      "U1",
+      "U5"
+    ],
+    "tilt": [
+      "C14",
+      "C17",
+      "C24"
+    ]
+  },
+  "pending": [
+    "rotated_180 is not implemented",
+    "tilt tasks return uncertain",
+    "lifted tasks are inactive",
+    "S01 is development data, not independent test data"
+  ],
+  "roi_revision": {
+    "reference": "S01_B01_1.jpg",
+    "exif_oriented": true,
+    "annotation_version": "0.4.0"
+  }
+}

@@ -1,0 +1,27 @@
+ROI_STATS_ABI=0x03
+GENERATED_UTC=2026-10-31T12:46:44Z
+Vivado v2025.2 (64-bit)
+SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+Tool Version Limit: 2025.11
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+
+PART=xc7z020clg400-1
+BOARD_PART=tul.com.tw:pynq-z2:part0:1.0
+TOP=pcb_roi_system_wrapper
+BD_IP_INSTANCES:
+/axi_ctrl/s00_couplers/auto_pc	xilinx.com:ip:axi_protocol_converter:2.1
+/axi_ctrl/xbar	xilinx.com:ip:axi_crossbar:2.1
+/axi_dma_0	xilinx.com:ip:axi_dma:7.1
+/axi_gpio_cfg	xilinx.com:ip:axi_gpio:2.0
+/axi_gpio_ctrl	xilinx.com:ip:axi_gpio:2.0
+/axi_mem/s00_couplers/auto_pc	xilinx.com:ip:axi_protocol_converter:2.1
+/axi_mem/s01_couplers/auto_pc	xilinx.com:ip:axi_protocol_converter:2.1
+/axi_mem/xbar	xilinx.com:ip:axi_crossbar:2.1
+/axis_roi_threshold_stats_0	xilinx.com:module_ref:axis_roi_threshold_stats:1.0
+/const_one	xilinx.com:ip:xlconstant:1.1
+/const_zero	xilinx.com:ip:xlconstant:1.1
+/ps7	xilinx.com:ip:processing_system7:5.5
+/rst_100m	xilinx.com:ip:proc_sys_reset:5.0

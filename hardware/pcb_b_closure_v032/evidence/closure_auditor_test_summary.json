@@ -1,0 +1,15 @@
+{
+  "scope": "Independent closure auditor synthetic-evidence tamper tests, no hardware or actual 1800s claim",
+  "recorded_utc": "2026-11-01T12:22:08.613937+00:00",
+  "hardware_executed": false,
+  "passed": true,
+  "tests_run": 9,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "python310_syntax_checked": true,
+  "files_sha256": {
+    "tools/verify_closure_results.py": "76c3e79d7b04d213208174f6671ea920deec6b3ae2178569bfa7782983341a00",
+    "software/tests/test_verify_closure_results.py": "bac97a0977d3957cc9e18dab2a167352594b842fd5dd42a49080f95d8a9b2cd5"
+  }
+}

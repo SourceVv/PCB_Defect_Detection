@@ -1,0 +1,101 @@
+{
+  "candidate_count": 5,
+  "profile_calls": 65,
+  "measured_samples_per_candidate": 10,
+  "lowest_median_candidate": "bytes_count",
+  "summary_recomputed": {
+    "compare": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.248316873,
+      "max": 0.249632227,
+      "mean": 0.2489489097,
+      "median": 0.24901393849999998,
+      "p95_linear": 0.24955281640000002,
+      "std_population": 0.0004038987357155424
+    },
+    "sum": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.129059323,
+      "max": 0.130048535,
+      "mean": 0.1294159081,
+      "median": 0.1293345505,
+      "p95_linear": 0.1299546443,
+      "std_population": 0.0003139274788636539
+    },
+    "addwrap": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.130816812,
+      "max": 0.132379581,
+      "mean": 0.1314201328,
+      "median": 0.1312131165,
+      "p95_linear": 0.1322176314,
+      "std_population": 0.00048520724276349846
+    },
+    "addreduce": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.187085797,
+      "max": 0.188041464,
+      "mean": 0.1875655017,
+      "median": 0.18749305500000002,
+      "p95_linear": 0.18804024,
+      "std_population": 0.00034291807294309986
+    },
+    "bytes_count": {
+      "n": 10,
+      "unit": "seconds",
+      "min": 0.115493901,
+      "max": 0.116451988,
+      "mean": 0.1157562871,
+      "median": 0.1156496125,
+      "p95_linear": 0.11631133015,
+      "std_population": 0.0003001014275995547
+    }
+  },
+  "hardware_executed": false,
+  "schema": "pcb-b-closure-independent-audit/0.3.2",
+  "passed": true,
+  "audit_passed": true,
+  "mode": "profile",
+  "source_run_id": "20261101_32a10001",
+  "source_state": "complete",
+  "hardware_executed_by_this_tool": false,
+  "verified_utc": "2026-11-01T12:31:56.005505+00:00",
+  "source_report_sha256": "7a44d910c4b098b7dbecac94f8d2f5b3542b7099f2ff2aa8daa43d7ce2708694",
+  "provenance_verified": {
+    "closure": {
+      "sha256": "f0d7adae6fd87dc900341fec582a174f8fd3f18248a53990ac8669023892ddb0",
+      "files_verified": 5,
+      "name": "NEW_PACKAGE_MANIFEST.json"
+    },
+    "frozen": {
+      "sha256": "d8fa2acdd46590f1c16ce6a45b757385ccf7080bd928b58937b122a66974a06f",
+      "files_verified": 138,
+      "name": "PACKAGE_MANIFEST.json"
+    }
+  },
+  "reported_environment": {
+    "client_date": "2026-11-01",
+    "board_utc": "2025-05-04T07:46:32.470888+00:00",
+    "python": "3.10.4 (main, Apr  2 2022, 09:04:19) [GCC 11.2.0]",
+    "platform": "Linux-6.6.10-xilinx-v2024.1-g3c0eca68c652-armv7l-with-glibc2.35",
+    "machine": "armv7l",
+    "uid": 1000,
+    "clock": {
+      "implementation": "clock_gettime(CLOCK_MONOTONIC)",
+      "monotonic": true,
+      "adjustable": false,
+      "resolution": 1e-09
+    },
+    "cpu_runtime_info": {
+      "scaling_governor": null,
+      "scaling_cur_freq": null,
+      "scaling_min_freq": null,
+      "scaling_max_freq": null
+    }
+  },
+  "scope": "Independent audit of saved B-chain evidence; no board operation, camera, C integration or general classifier claim"
+}

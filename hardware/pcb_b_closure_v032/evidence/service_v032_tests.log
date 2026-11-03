@@ -1,0 +1,3 @@
+python -B -m unittest discover -s outputs/pcb_b_closure_v032/software/tests -p test_service_optimization.py -v
+Scope: offline mocks; no board operation.
+Ran 36 tests in 0.369s; OK

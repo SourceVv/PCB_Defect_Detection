@@ -1,0 +1,129 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Oct 31 14:56:12 2026
+# Process ID         : 62348
+# Current directory  : D:/codex/2026-10-21/b-2
+# Command line       : vivado.exe -mode batch -notrace -source D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\hardware\tcl\create_project.tcl -log D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\evidence\vivado\batch_20261031_145610_117\create_project.log -journal D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\evidence\vivado\batch_20261031_145610_117\create_project.jou
+# Log file           : D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/evidence/vivado/batch_20261031_145610_117/create_project.log
+# Journal file       : D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\evidence\vivado\batch_20261031_145610_117\create_project.jou
+# Running On         : ibuki-pc
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 22631
+# Processor Detail   : 13th Gen Intel(R) Core(TM) i9-13980HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 8
+# CPU Logical cores  : 16
+# Host memory        : 66254 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 74844 MB
+# Available Virtual  : 43779 MB
+#-----------------------------------------------------------
+INFO: [Common 17-1239] XILINX_LOCAL_USER_DATA is set to 'D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\build\vivado_user_data'.
+source {D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\hardware\tcl\create_project.tcl} -notrace
+Using board preset: tul.com.tw:pynq-z2:part0:1.0
+Wrote  : <D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\build\pcb_roi\pcb_roi.srcs\sources_1\bd\pcb_roi_system\pcb_roi_system.bd> 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [BD 41-737] Cannot set the parameter c_prmry_is_aclk_async on /axi_dma_0. It is read-only.
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'C_TRI_DEFAULT' from '0xFFFFFFFF' to '0x00000000' has been ignored for IP 'axi_gpio_ctrl'
+WARNING: [IP_Flow 19-3374] An attempt to modify the value of disabled parameter 'C_TRI_DEFAULT' from '0xFFFFFFFF' to '0x00000000' has been ignored for IP 'axi_gpio_cfg'
+INFO: [Ipptcl 7-1463] No Compatible Board Interface found. Board Tab not created in customize GUI
+CRITICAL WARNING: [BD 41-737] Cannot set the parameter C_EXT_RESET_HIGH on /rst_100m. It is read-only.
+INFO: [BD 5-1043] It is recommended to use inline hdl version xilinx.com:inline_hdl:ilconstant:1.0 for the IP type xilinx.com:ip:xlconstant:1.1 for improved performance and reduced disk space. IPs with VLNV xilinx.com:ip:xlconstant:1.1 will not be supported from release 2025.2. More information on inline hdl IP is available in UG994 
+INFO: [BD 5-1043] It is recommended to use inline hdl version xilinx.com:inline_hdl:ilconstant:1.0 for the IP type xilinx.com:ip:xlconstant:1.1 for improved performance and reduced disk space. IPs with VLNV xilinx.com:ip:xlconstant:1.1 will not be supported from release 2025.2. More information on inline hdl IP is available in UG994 
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aclk' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'aresetn' of definition 'xilinx.com:signal:reset:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'S_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'M_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'M_AXIS' of definition 'xilinx.com:interface:axis:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_BUSIF' with value 'S_AXIS'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'ASSOCIATED_RESET' with value 'aresetn'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aclk': Added interface parameter 'FREQ_HZ' with value '100000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'aresetn': Added interface parameter 'POLARITY' with value 'ACTIVE_LOW'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'TDATA_NUM_BYTES' with value '4'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'HAS_TKEEP' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'HAS_TLAST' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'HAS_TREADY' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'TUSER_WIDTH' with value '0'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'TID_WIDTH' with value '0'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'TDEST_WIDTH' with value '0'.
+INFO: [IP_Flow 19-4728] Bus Interface 'S_AXIS': Added interface parameter 'FREQ_HZ' with value '100000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'TDATA_NUM_BYTES' with value '4'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'HAS_TKEEP' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'HAS_TLAST' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'HAS_TREADY' with value '1'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'TUSER_WIDTH' with value '0'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'TID_WIDTH' with value '0'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'TDEST_WIDTH' with value '0'.
+INFO: [IP_Flow 19-4728] Bus Interface 'M_AXIS': Added interface parameter 'FREQ_HZ' with value '100000000'.
+INFO: [IP_Flow 19-7067] Note that bus interface 'aclk' has a fixed FREQ_HZ of '100000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-7067] Note that bus interface 'S_AXIS' has a fixed FREQ_HZ of '100000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+INFO: [IP_Flow 19-7067] Note that bus interface 'M_AXIS' has a fixed FREQ_HZ of '100000000'. This value will be respected whenever this IP is instantiated in IP Integrator.
+WARNING: [BD 41-1753] The name 'axis_roi_threshold_stats_0' you have specified is long. The Windows OS has path length limitations. It is recommended you use shorter names(less than 25 characters) to reduce the likelihood of issues when/if running on windows OS.
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_ctrl/gpio_io_o> is being overridden by the user with net <axi_gpio_ctrl_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_ctrl/gpio2_io_i> is being overridden by the user with net <axis_roi_threshold_stats_0_status_word>. This pin will not be connected as a part of interface connection <GPIO2>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_cfg/gpio_io_o> is being overridden by the user with net <axi_gpio_cfg_gpio_io_o>. This pin will not be connected as a part of interface connection <GPIO>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+WARNING: [BD 41-1306] The connection to interface pin </axi_gpio_cfg/gpio2_io_i> is being overridden by the user with net <axis_roi_threshold_stats_0_cfg_result_word>. This pin will not be connected as a part of interface connection <GPIO2>, and might not recreate the connectivity as expected using the writ_bd_tcl command.
+INFO: [BD 41-3093] Triggering Legacy Auto Assign Algorithm
+Slave segment '/ps7/S_AXI_HP0/HP0_DDR_LOWOCM' is being assigned into address space '/axi_dma_0/Data_MM2S' at <0x0000_0000 [ 512M ]>.
+Slave segment '/ps7/S_AXI_HP0/HP0_DDR_LOWOCM' is being assigned into address space '/axi_dma_0/Data_S2MM' at <0x0000_0000 [ 512M ]>.
+Slave segment '/axi_dma_0/S_AXI_LITE/Reg' is being assigned into address space '/ps7/Data' at <0x4040_0000 [ 64K ]>.
+Slave segment '/axi_gpio_cfg/S_AXI/Reg' is being assigned into address space '/ps7/Data' at <0x4120_0000 [ 64K ]>.
+Slave segment '/axi_gpio_ctrl/S_AXI/Reg' is being assigned into address space '/ps7/Data' at <0x4121_0000 [ 64K ]>.
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter PCW_M_AXI_GP0_FREQMHZ(10) on '/ps7' with propagated value(100). Command ignored
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.051 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.006 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.009 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.033 . PS DDR interfaces might fail when entering negative DQS skew values. 
+Wrote  : <D:\codex\2026-10-21\b-2\outputs\pcb_b_roi_v03\build\pcb_roi\pcb_roi.srcs\sources_1\bd\pcb_roi_system\pcb_roi_system.bd> 
+INFO: [BD 41-1662] The design 'pcb_roi_system.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem/xbar/m_axi_bid'(1) to pin: '/axi_mem/m00_couplers/S_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem/xbar/m_axi_rid'(1) to pin: '/axi_mem/m00_couplers/S_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps7/S_AXI_HP0_WID'(6) to pin: '/axi_mem/M00_AXI_wid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps7/S_AXI_HP0_ARID'(6) to pin: '/axi_mem/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps7/S_AXI_HP0_AWID'(6) to pin: '/axi_mem/M00_AXI_awid'(1) - Only lower order bits will be connected.
+Verilog Output written to : D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/synth/pcb_roi_system.v
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem/xbar/m_axi_bid'(1) to pin: '/axi_mem/m00_couplers/S_AXI_bid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/axi_mem/xbar/m_axi_rid'(1) to pin: '/axi_mem/m00_couplers/S_AXI_rid'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps7/S_AXI_HP0_WID'(6) to pin: '/axi_mem/M00_AXI_wid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps7/S_AXI_HP0_ARID'(6) to pin: '/axi_mem/M00_AXI_arid'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-2384] Width mismatch when connecting pin: '/ps7/S_AXI_HP0_AWID'(6) to pin: '/axi_mem/M00_AXI_awid'(1) - Only lower order bits will be connected.
+Verilog Output written to : D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/sim/pcb_roi_system.v
+Verilog Output written to : D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/hdl/pcb_roi_system_wrapper.v
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'M_AXI_GP0'. A default connection has been created.
+INFO: [IP_Flow 19-5611] Unable to find an associated reset port for the interface 'S_AXI_HP0'. A default connection has been created.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block ps7 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_ctrl .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_cfg .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ctrl/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/ip/pcb_roi_system_axi_ctrl_imp_auto_pc_0/pcb_roi_system_axi_ctrl_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ctrl/s00_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem/xbar .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/ip/pcb_roi_system_axi_mem_imp_auto_pc_0/pcb_roi_system_axi_mem_imp_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem/s00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'd:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/ip/pcb_roi_system_axi_mem_imp_auto_pc_1/pcb_roi_system_axi_mem_imp_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem/s01_couplers/auto_pc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_100m .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block const_zero .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block const_one .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axis_roi_threshold_stats_0 .
+Exporting to file D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/hw_handoff/pcb_roi_system.hwh
+Generated Hardware Definition File D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/synth/pcb_roi_system.hwdef
+INFO: [BD 41-3262] Generated VHDL Instantiation Template file d:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/pcb_roi_system.vho
+INFO: [BD 41-3262] Generated Verilog Instantiation Template file d:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/pcb_roi_system.veo
+INFO: [BD 41-3262] Generated System Verilog Instantiation Template file d:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.gen/sources_1/bd/pcb_roi_system/pcb_roi_system_sv.sveo
+generate_target: Time (s): cpu = 00:00:04 ; elapsed = 00:00:19 . Memory (MB): peak = 757.441 ; gain = 46.191
+CREATED: D:/codex/2026-10-21/b-2/outputs/pcb_b_roi_v03/build/pcb_roi/pcb_roi.xpr
+No synthesis, implementation or board validation was performed by this script.
+Review the BD and reports, then run hardware/tcl/build_overlay.tcl.
+INFO: [Common 17-206] Exiting Vivado at Sat Oct 31 14:57:07 2026...

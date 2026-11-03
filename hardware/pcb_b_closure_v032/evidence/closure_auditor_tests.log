@@ -1,0 +1,14 @@
+test_pc_microprofile_cannot_be_presented_as_arm_measurement (test_verify_closure_results.VerifyClosureResultsTests.test_pc_microprofile_cannot_be_presented_as_arm_measurement) ... ok
+test_profile_rejects_incomplete_binary_probe_or_changed_p95 (test_verify_closure_results.VerifyClosureResultsTests.test_profile_rejects_incomplete_binary_probe_or_changed_p95) ... ok
+test_stability_rejects_bad_halted_or_final_poisoned_or_checkpoint (test_verify_closure_results.VerifyClosureResultsTests.test_stability_rejects_bad_halted_or_final_poisoned_or_checkpoint) ... ok
+test_valid_profile_65_samples_and_rejects_removed_candidate_or_bad_count (test_verify_closure_results.VerifyClosureResultsTests.test_valid_profile_65_samples_and_rejects_removed_candidate_or_bad_count) ... ok
+test_valid_stability_evidence_rejects_short_duration_and_missing_frame (test_verify_closure_results.VerifyClosureResultsTests.test_valid_stability_evidence_rejects_short_duration_and_missing_frame) ... ok
+test_valid_validate_evidence_and_rejects_aggregate_tampering (test_verify_closure_results.VerifyClosureResultsTests.test_valid_validate_evidence_and_rejects_aggregate_tampering) ... ok
+test_validate_rejects_changed_first_mask_bytes (test_verify_closure_results.VerifyClosureResultsTests.test_validate_rejects_changed_first_mask_bytes) ... ok
+test_validate_rejects_missing_round_and_wrong_packet_sequence (test_verify_closure_results.VerifyClosureResultsTests.test_validate_rejects_missing_round_and_wrong_packet_sequence) ... ok
+test_validate_rejects_nonowning_output_and_dma_unsafe (test_verify_closure_results.VerifyClosureResultsTests.test_validate_rejects_nonowning_output_and_dma_unsafe) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.323s
+
+OK

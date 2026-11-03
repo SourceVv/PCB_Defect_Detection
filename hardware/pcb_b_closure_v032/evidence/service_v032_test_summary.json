@@ -1,0 +1,18 @@
+{
+  "scope": "Offline strict-validator/ownership/DMA-safety contract regression using mocks only",
+  "recorded_utc": "2026-11-01T11:46:42.443217+00:00",
+  "hardware_executed": false,
+  "command": "python -B -m unittest discover -s outputs/pcb_b_closure_v032/software/tests -p test_service_optimization.py -v",
+  "observed_exit_code": 0,
+  "tests_run": 36,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "observed_runner_summary": "Ran 36 tests in 0.369s; OK",
+  "python_310_syntax_checked": true,
+  "baseline_service_sha256": "f01ea4a5276762cb97ca585b31a0ff365264e8197504b50f5773401fce08fbd2",
+  "files_sha256": {
+    "software/aoi_roi_service.py": "579bd7213c003dc835c88bd1407a2881582f11a1ecdf4f5c2fcb92ad5a20d867",
+    "software/tests/test_service_optimization.py": "61fed0cfec1f842c616a7901f254312f5f97def76b657000fc2d1eb61820b6b4"
+  }
+}

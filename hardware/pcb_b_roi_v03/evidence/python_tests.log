@@ -1,0 +1,60 @@
+test_config_failure_does_not_label_previous_transfer_current (test_roi_driver.FactoryAndReferenceTests.test_config_failure_does_not_label_previous_transfer_current) ... CASE_START bypass_32
+CASE_PASS bypass_32
+CASE_START bypass_64
+ok
+test_eight_case_controller_with_mock_not_physical_board (test_roi_driver.FactoryAndReferenceTests.test_eight_case_controller_with_mock_not_physical_board) ... CASE_START bypass_32
+CASE_PASS bypass_32
+CASE_START bypass_64
+CASE_PASS bypass_64
+CASE_START roi_boundary_8x4
+CASE_PASS roi_boundary_8x4
+CASE_START bypass_640x480
+CASE_PASS bypass_640x480
+CASE_START bypass_full_golden
+CASE_PASS bypass_full_golden
+CASE_START threshold_full_golden
+CASE_PASS threshold_full_golden
+CASE_START roi_latest17_full
+CASE_PASS roi_latest17_full
+CASE_START roi_frozen16_full
+CASE_PASS roi_frozen16_full
+ok
+test_factory_validates_before_download (test_roi_driver.FactoryAndReferenceTests.test_factory_validates_before_download) ... ok
+test_hwh_extra_gpio_mode_default_and_overlap (test_roi_driver.FactoryAndReferenceTests.test_hwh_extra_gpio_mode_default_and_overlap) ... ok
+test_real_profiles_and_original_mask (test_roi_driver.FactoryAndReferenceTests.test_real_profiles_and_original_mask) ... ok
+test_reference_rejects_invalid_pixel_contract (test_roi_driver.FactoryAndReferenceTests.test_reference_rejects_invalid_pixel_contract) ... ok
+test_busy_configuration_writes_nothing (test_roi_driver.RoiTests.test_busy_configuration_writes_nothing) ... ok
+test_bypass_ignores_modes_and_counter_zero (test_roi_driver.RoiTests.test_bypass_ignores_modes_and_counter_zero) ... ok
+test_completed_frame_error_retains_actual_copy_and_safe_buffers (test_roi_driver.RoiTests.test_completed_frame_error_retains_actual_copy_and_safe_buffers) ... ok
+test_config_rejection_timeout_readback_disable_transfer (test_roi_driver.RoiTests.test_config_rejection_timeout_readback_disable_transfer) ... ok
+test_data_then_toggle_ack_readback_and_shadow_preserved (test_roi_driver.RoiTests.test_data_then_toggle_ack_readback_and_shadow_preserved) ... ok
+test_full_output_still_counts_enabled_rois (test_roi_driver.RoiTests.test_full_output_still_counts_enabled_rois) ... ok
+test_geometry_roi_validation_and_transpose (test_roi_driver.RoiTests.test_geometry_roi_validation_and_transpose) ... ok
+test_overlap_counts_mask_and_release_before_return (test_roi_driver.RoiTests.test_overlap_counts_mask_and_release_before_return) ... ok
+test_poisoned_dma_retains_buffers_and_blocks_configuration (test_roi_driver.RoiTests.test_poisoned_dma_retains_buffers_and_blocks_configuration) ... ok
+test_requires_recovery_and_configuration_before_allocation (test_roi_driver.RoiTests.test_requires_recovery_and_configuration_before_allocation) ... ok
+test_soft_reset_preserves_configuration_but_invalidates_results (test_roi_driver.RoiTests.test_soft_reset_preserves_configuration_but_invalidates_results) ... ok
+test_wrong_abi_rejected_without_allocation (test_roi_driver.RoiTests.test_wrong_abi_rejected_without_allocation) ... ok
+test_factory_rejects_missing_ip_and_invalid_mapping (test_transport.FactoryTests.test_factory_rejects_missing_ip_and_invalid_mapping) ... ok
+test_factory_rejects_wrong_mode_width_direction_or_default_before_download (test_transport.FactoryTests.test_factory_rejects_wrong_mode_width_direction_or_default_before_download) ... ok
+test_factory_requires_matching_hwh_before_pynq_import (test_transport.FactoryTests.test_factory_requires_matching_hwh_before_pynq_import) ... ok
+test_factory_validates_before_download_and_retains_overlay (test_transport.FactoryTests.test_factory_validates_before_download_and_retains_overlay) ... ok
+test_bad_abi_and_busy_are_rejected_before_dma_or_allocation (test_transport.TransferTests.test_bad_abi_and_busy_are_rejected_before_dma_or_allocation) ... ok
+test_bad_addresses_are_freed_only_while_dma_is_halted (test_transport.TransferTests.test_bad_addresses_are_freed_only_while_dma_is_halted) ... ok
+test_bypass_shape_and_noncontiguous_input (test_transport.TransferTests.test_bypass_shape_and_noncontiguous_input) ... ok
+test_count_wrap_and_normal_transfer_preserves_pl_count (test_transport.TransferTests.test_count_wrap_and_normal_transfer_preserves_pl_count) ... ok
+test_dma_error_retains_error_snapshot_but_cleans_safely (test_transport.TransferTests.test_dma_error_retains_error_snapshot_but_cleans_safely) ... ok
+test_explicit_recover_clears_pl_and_holds_reset_around_dma (test_transport.TransferTests.test_explicit_recover_clears_pl_and_holds_reset_around_dma) ... ok
+test_interrupt_with_failed_reset_retains_memory (test_transport.TransferTests.test_interrupt_with_failed_reset_retains_memory) ... ok
+test_keyboard_interrupt_runs_cleanup (test_transport.TransferTests.test_keyboard_interrupt_runs_cleanup) ... ok
+test_payload_and_threshold_validation (test_transport.TransferTests.test_payload_and_threshold_validation) ... ok
+test_receive_length_mismatch_is_rejected (test_transport.TransferTests.test_receive_length_mismatch_is_rejected) ... ok
+test_success_cache_order_and_independent_result (test_transport.TransferTests.test_success_cache_order_and_independent_result) ... ok
+test_timeout_recovers_then_can_transfer_again (test_transport.TransferTests.test_timeout_recovers_then_can_transfer_again) ... ok
+test_unstoppable_dma_is_poisoned_and_never_freed (test_transport.TransferTests.test_unstoppable_dma_is_poisoned_and_never_freed) ... ok
+test_zero_or_two_packets_and_busy_completion_are_rejected (test_transport.TransferTests.test_zero_or_two_packets_and_busy_completion_are_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.943s
+
+OK

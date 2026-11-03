@@ -1,0 +1,11 @@
+# vsim -c -lib D:/codex/2026-10-21/b-2/work/roi_v03_pipeline_fix_review/lib tb_roi_pipeline_review -l work/roi_v03_pipeline_fix_review/simulation.log -do "run -all; quit -force -code 0" 
+# Start time: 20:43:47 on Oct 31,2026
+# Loading sv_std.std
+# Loading D:/codex/2026-10-21/b-2/work/roi_v03_pipeline_fix_review/lib.tb_roi_pipeline_review
+# Loading D:/codex/2026-10-21/b-2/work/roi_v03_pipeline_fix_review/lib.axis_roi_threshold_stats
+# run -all
+# PASS: ROI_PIPELINE_REVIEW packets=44 input_beats=10392 output_beats=10388 input_stalls=13029 output_stalls=2702 back_to_back=4 zero_keep=329
+# ** Note: $finish    : work/roi_v03_pipeline_fix_review/tb_roi_pipeline_review.sv(357)
+#    Time: 353690 ns  Iteration: 1  Instance: /tb_roi_pipeline_review
+# End time: 20:43:48 on Oct 31,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
