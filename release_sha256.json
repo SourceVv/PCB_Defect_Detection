@@ -1,5 +1,5 @@
 {
-  ".gitattributes": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+  ".gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
   ".github/workflows/ci.yml": "bb33553d8bf0ebc5ce624b328f186cd9f1eb43654451dcfe833c095516be2aa9",
   ".gitignore": "6b6d728edfd156cbff32974bc6f7d49fe78fa5bc17c200bd76a55911a8595ac4",
   "board/readme.md": "e580ae25bd5fd74a54e5a9275d780696f8fbd5c77f8e031a9bfbd5e063ee9680",
@@ -230,7 +230,7 @@
   "report/ai_collaboration.md": "00cf748ca4fe4eeb162cf55b6b4abe5c14e5935febb8dfc90d54d4c2ff64a8d0",
   "report/readme.md": "f7e30c6d2c80a6696520747c2b9d90d60e398482e99939000f726587d49cacdd",
   "requirements-tested-windows.txt": "345f41c08c670b4df4911010889a452f6dbeb0f3c05fa780ee04235bc8e2505c",
-  "research/baseline/.gitattributes": "026fd64e8cb8c4ccf3a9addf855c0346af8ceb1b464159a18bb2e484683838dd",
+  "research/baseline/.gitattributes": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
   "research/baseline/.gitignore": "769bc5974d3d70e06966a96c15b9723e84e2de243b6e0b934753b5f752ec59b0",
   "research/baseline/changelog.md": "cbda1e232c40a70913292bd46abff1f1f7a350f00881e0137c73d3d175a4a845",
   "research/baseline/configs/roi_calibration_v0.4.0.json": "104b77c22cbc9e3327c8c5b4b790b4bd72803a9b42c0091b05cf60c237ea10fc",
