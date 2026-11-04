@@ -46,6 +46,6 @@ def evaluate(config, input_dir, truth_path, output_dir):
         writer = csv.DictWriter(stream, fieldnames=list(rows[0]))
         writer.writeheader()
         writer.writerows(rows)
-    summary = dict(config_version=config['version'], dataset='development_replay', images=len(images), decisions=len(rows), invalid_images=image_failures, **counts, correct=sum((r['correct'] for r in rows)), note='S01 was used for calibration; this is not independent accuracy.')
+    summary = dict(config_version=config['version'], dataset='development_replay', images=len(images), decisions=len(rows), invalid_images=image_failures, **counts, correct=sum((r['correct'] for r in rows)), note='s01 was used for calibration; this is not independent accuracy.')
     (output_dir / 'summary.json').write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding='utf-8')
     return summary

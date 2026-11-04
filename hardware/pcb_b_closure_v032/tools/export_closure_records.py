@@ -117,9 +117,9 @@ def export_runs(root, names, output, home=None):
         info, selected = collect_run(root, name)
         selections.append(info)
         files.extend(selected)
-    manifest_path = root / 'NEW_PACKAGE_MANIFEST.json'
+    manifest_path = root / 'new_package_manifest.json'
     if manifest_path.is_symlink() or not manifest_path.is_file():
-        raise ValueError('Root frozen NEW_PACKAGE_MANIFEST.json is missing')
+        raise ValueError('Root frozen new_package_manifest.json is missing')
     _json(manifest_path)
     files.append(manifest_path)
     entries = []

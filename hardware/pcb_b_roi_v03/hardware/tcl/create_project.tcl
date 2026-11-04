@@ -78,7 +78,7 @@ connect_bd_intf_net [get_bd_intf_pins axi_ctrl/M00_AXI] [get_bd_intf_pins axi_dm
 connect_bd_intf_net [get_bd_intf_pins axi_ctrl/M01_AXI] [get_bd_intf_pins axi_gpio_ctrl/S_AXI]
 connect_bd_intf_net [get_bd_intf_pins axi_ctrl/M02_AXI] [get_bd_intf_pins axi_gpio_cfg/S_AXI]
 connect_bd_intf_net [get_bd_intf_pins axi_dma_0/M_AXI_MM2S] [get_bd_intf_pins axi_mem/S00_AXI]
-connect_bd_intf_net [get_bd_intf_pins axi_dma_0/M_AXI_S2MM] [get_bd_intf_pins axi_mem/S01_AXI]
+connect_bd_intf_net [get_bd_intf_pins axi_dma_0/M_AXI_S2MM] [get_bd_intf_pins axi_mem/s01_AXI]
 connect_bd_intf_net [get_bd_intf_pins axi_mem/M00_AXI] [get_bd_intf_pins ps7/S_AXI_HP0]
 
 connect_bd_intf_net [get_bd_intf_pins axi_dma_0/M_AXIS_MM2S] [get_bd_intf_pins axis_roi_threshold_stats_0/S_AXIS]
@@ -91,7 +91,7 @@ foreach pin {ps7/M_AXI_GP0_ACLK ps7/S_AXI_HP0_ACLK rst_100m/slowest_sync_clk \
     axi_dma_0/s_axi_lite_aclk axi_dma_0/m_axi_mm2s_aclk axi_dma_0/m_axi_s2mm_aclk \
     axi_gpio_ctrl/s_axi_aclk axi_gpio_cfg/s_axi_aclk \
     axi_ctrl/ACLK axi_ctrl/S00_ACLK axi_ctrl/M00_ACLK axi_ctrl/M01_ACLK axi_ctrl/M02_ACLK \
-    axi_mem/ACLK axi_mem/S00_ACLK axi_mem/S01_ACLK axi_mem/M00_ACLK \
+    axi_mem/ACLK axi_mem/S00_ACLK axi_mem/s01_ACLK axi_mem/M00_ACLK \
     axis_roi_threshold_stats_0/aclk} {
     connect_bd_net [get_bd_pins ps7/FCLK_CLK0] [get_bd_pins $pin]
 }
@@ -102,7 +102,7 @@ foreach pin {axi_ctrl/ARESETN axi_mem/ARESETN} {
     connect_bd_net [get_bd_pins rst_100m/interconnect_aresetn] [get_bd_pins $pin]
 }
 foreach pin {axi_ctrl/S00_ARESETN axi_ctrl/M00_ARESETN axi_ctrl/M01_ARESETN axi_ctrl/M02_ARESETN \
-    axi_mem/S00_ARESETN axi_mem/S01_ARESETN axi_mem/M00_ARESETN \
+    axi_mem/S00_ARESETN axi_mem/s01_ARESETN axi_mem/M00_ARESETN \
     axi_dma_0/axi_resetn axi_gpio_ctrl/s_axi_aresetn axi_gpio_cfg/s_axi_aresetn axis_roi_threshold_stats_0/aresetn} {
     connect_bd_net [get_bd_pins rst_100m/peripheral_aresetn] [get_bd_pins $pin]
 }

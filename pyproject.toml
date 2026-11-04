@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pcb-defect-detection"
 version = "1.0.0"
 description = "Reference-based PCB inspection with a blue Jupyter interface and PYNQ backend"
-readme = "README.md"
+readme = "readme.md"
 requires-python = ">=3.10"
 dependencies = ["numpy>=1.23,<3", "opencv-python-headless>=4.8,<5", "ipywidgets>=7.7,<9", "notebook>=7,<8"]
 

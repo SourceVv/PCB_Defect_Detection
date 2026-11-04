@@ -7,8 +7,8 @@ def test_reference_and_result():
     root = Path(__file__).resolve().parents[1]
     with tempfile.TemporaryDirectory() as directory:
         session = GeneralSession(directory)
-        session.register("normal.png",(root/"data/reference/B01_reference.png").read_bytes())
-        result = session.inspect((root/"data/development/S01/B02_S01_001.png").read_bytes())
+        session.register("normal.png",(root/"data/reference/b01_reference.png").read_bytes())
+        result = session.inspect((root/"data/development/s01/b02_s01_001.png").read_bytes())
         assert len(result["items"]) == len(session.rows)
         assert len(result["items"]) > 90
         items = {item["refdes"]:item for item in result["items"]}

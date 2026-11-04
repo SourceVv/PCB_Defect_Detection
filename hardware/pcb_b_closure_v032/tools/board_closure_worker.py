@@ -244,9 +244,9 @@ def main():
     if args.mode != 'profile' and (not args.candidate):
         raise ValueError('Select a strict candidate after reviewing the microprofile')
     package, previous = (args.package.resolve(), args.previous.resolve())
-    manifests = [manifest_check(ROOT, 'NEW_PACKAGE_MANIFEST.json'), manifest_check(package, 'PACKAGE_MANIFEST.json')]
+    manifests = [manifest_check(ROOT, 'new_package_manifest.json'), manifest_check(package, 'package_manifest.json')]
     if args.mode != 'profile':
-        manifests.append(manifest_check(previous, 'NEW_PACKAGE_MANIFEST.json'))
+        manifests.append(manifest_check(previous, 'new_package_manifest.json'))
     if not args.execute:
         print(json.dumps({'state': 'plan_only', 'hardware_executed': False, 'mode': args.mode, 'candidate': args.candidate, 'manifests': manifests, 'environment': environment(), 'validate_rounds': 33 if args.mode == 'validate' else None, 'validate_dma_frames': 66 if args.mode == 'validate' else None, 'stability_minimum_seconds': args.seconds if args.mode == 'stability' else None, 'no_camera': True}, ensure_ascii=False, indent=2))
         return 0

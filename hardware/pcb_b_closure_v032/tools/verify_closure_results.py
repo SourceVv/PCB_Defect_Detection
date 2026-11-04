@@ -76,11 +76,11 @@ def _manifest(root, name):
 
 def _check_provenance(report, package, closure_root, previous, mode):
     package, closure_root = (Path(package).resolve(), Path(closure_root).resolve())
-    roots = [('closure', closure_root, 'NEW_PACKAGE_MANIFEST.json'), ('frozen', package, 'PACKAGE_MANIFEST.json')]
+    roots = [('closure', closure_root, 'new_package_manifest.json'), ('frozen', package, 'package_manifest.json')]
     if mode != 'profile':
         _require(previous is not None, 'Hardware evidence requires explicit --previous root')
         previous = Path(previous).resolve()
-        roots.append(('previous', previous, 'NEW_PACKAGE_MANIFEST.json'))
+        roots.append(('previous', previous, 'new_package_manifest.json'))
     manifests = {label: _manifest(root, name) for label, root, name in roots}
     if mode == 'profile':
         source = closure_root / 'software/aoi_roi_service.py'
@@ -364,7 +364,7 @@ def main():
     parser.add_argument('--output', type=Path)
     args = parser.parse_args()
     output = args.output or args.run_directory / ('independent_' + args.mode + '_audit.json')
-    protected = [args.run_directory / 'report.json', args.run_directory / 'profile_report.json', args.run_directory / 'records.jsonl', args.closure_root / 'NEW_PACKAGE_MANIFEST.json']
+    protected = [args.run_directory / 'report.json', args.run_directory / 'profile_report.json', args.run_directory / 'records.jsonl', args.closure_root / 'new_package_manifest.json']
     _require(output.suffix.lower() == '.json' and output.resolve() not in {path.resolve() for path in protected} and (not output.resolve().is_relative_to(args.package.resolve())) and (not output.resolve().is_relative_to((args.closure_root / 'software').resolve())) and (not output.resolve().is_relative_to((args.closure_root / 'tools').resolve())) and (args.previous is None or not output.resolve().is_relative_to(args.previous.resolve())), 'Output must not overwrite original evidence or frozen sources')
     output.parent.mkdir(parents=True, exist_ok=True)
     try:

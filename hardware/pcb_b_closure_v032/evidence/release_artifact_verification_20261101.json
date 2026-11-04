@@ -21,7 +21,7 @@
         "sha256_match": true
       },
       {
-        "path": "config/INTERFACE_V03.md",
+        "path": "config/interface_v03.md",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -33,25 +33,25 @@
         "sha256_match": true
       },
       {
-        "path": "config/SHA256.json",
+        "path": "config/sha256.json",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
       },
       {
-        "path": "docs/A_C接口对接说明.md",
+        "path": "docs/reference_document_12.md",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
       },
       {
-        "path": "docs/B_ROI与面积统计_新手详细说明.md",
+        "path": "docs/reference_document_13.md",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
       },
       {
-        "path": "docs/B_ROI与面积统计_新手详细说明.pdf",
+        "path": "docs/reference_document_14.pdf",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -267,7 +267,7 @@
         "sha256_match": true
       },
       {
-        "path": "evidence/rtl/VERSION_HISTORY.md",
+        "path": "evidence/rtl/version_history.md",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -561,7 +561,7 @@
         "sha256_match": true
       },
       {
-        "path": "fixtures/SHA256.json",
+        "path": "fixtures/sha256.json",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -579,7 +579,7 @@
         "sha256_match": true
       },
       {
-        "path": "hardware/sim/README.md",
+        "path": "hardware/sim/readme.md",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -627,7 +627,7 @@
         "sha256_match": true
       },
       {
-        "path": "hardware/tcl/README_build.md",
+        "path": "hardware/tcl/readme_build.md",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -639,7 +639,7 @@
         "sha256_match": true
       },
       {
-        "path": "README_先看这里.md",
+        "path": "readme_11.md",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -729,7 +729,7 @@
         "sha256_match": true
       },
       {
-        "path": "release/roi_v0_3/README_build_audit.md",
+        "path": "release/roi_v0_3/readme_build_audit.md",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -741,13 +741,13 @@
         "sha256_match": true
       },
       {
-        "path": "release/roi_v0_3/SHA256.json",
+        "path": "release/roi_v0_3/sha256.json",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
       },
       {
-        "path": "release/roi_v0_3/SHA256SUMS.txt",
+        "path": "release/roi_v0_3/sha256sums.txt",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -789,7 +789,7 @@
         "sha256_match": true
       },
       {
-        "path": "software/README_软件与接口说明.md",
+        "path": "software/reference_document_15.md",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true
@@ -807,7 +807,7 @@
         "sha256_match": true
       },
       {
-        "path": "software/ROI_板上逐步验收.ipynb",
+        "path": "software/reference_document_16.ipynb",
         "exists": true,
         "bytes_match": true,
         "sha256_match": true

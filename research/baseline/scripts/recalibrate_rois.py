@@ -63,7 +63,7 @@ def main():
                 feats, _ = process_reference(gray, config, name, meta['H'])
                 values[name][feature][truth[path.name, name]].append(feats['feat'])
             rc['feature'] = previous_feature
-    report = dict(config_version='0.4.0', dataset='S01_development_calibration', images=len(images), decisions=len(truth), independent_test=False, annotations_sha256=sha256(args.annotations), source_config_sha256=sha256(args.source_config), reference_sha256=sha256(reference_path(config)), photos_sha256={p.name: sha256(p) for p in images}, truth_sha256=sha256(args.truth), items={})
+    report = dict(config_version='0.4.0', dataset='s01_development_calibration', images=len(images), decisions=len(truth), independent_test=False, annotations_sha256=sha256(args.annotations), source_config_sha256=sha256(args.source_config), reference_sha256=sha256(reference_path(config)), photos_sha256={p.name: sha256(p) for p in images}, truth_sha256=sha256(args.truth), items={})
     for name in names:
         ranges = {}
         for feature, samples in values[name].items():
@@ -79,8 +79,8 @@ def main():
         rc.update(feature=feature, op=selected['op'], threshold=selected['threshold'])
         report['items'][name] = dict(box=rc['box'], previous=old, feature=feature, **selected, candidate_ranges=ranges, small_margin=feature == 'cd40' and selected['separation_gap'] < 0.02)
     config['version'] = '0.4.0'
-    config['note'] = 'Manually corrected body/pad ROIs; thresholds recalibrated on S01 development data, not independent accuracy. R12 has a small margin.'
-    config['roi_revision'] = dict(reference='S01_B01_1.jpg', exif_oriented=True, annotation_version=annotation['version'])
+    config['note'] = 'Manually corrected body/pad ROIs; thresholds recalibrated on s01 development data, not independent accuracy. R12 has a small margin.'
+    config['roi_revision'] = dict(reference='s01_b01_1.jpg', exif_oriented=True, annotation_version=annotation['version'])
     result = public_config(config)
     result['alignment']['reference_image'] = Path(os.path.relpath(reference_path(config), args.out_config.resolve().parent)).as_posix()
     args.out_config.parent.mkdir(parents=True, exist_ok=True)

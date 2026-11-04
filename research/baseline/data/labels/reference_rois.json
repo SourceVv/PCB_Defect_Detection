@@ -1,6 +1,6 @@
 {
   "version": "0.4.0",
-  "reference_image": "S01_B01_1.jpg",
+  "reference_image": "s01_b01_1.jpg",
   "reference_sha256": "8d1394696dc08ca3b5265c3e5e615d3b9455964a28095a6e44a57b5c404ddf03",
   "input_size": [
     2533,

@@ -54,14 +54,14 @@ def reference(image, rois, *, threshold=120, invert=True, roi_enable=True, bypas
 
 def load_inputs(root=ROOT):
     root = Path(root)
-    manifest = json.loads((root / 'fixtures/SHA256.json').read_text(encoding='utf-8'))
+    manifest = json.loads((root / 'fixtures/sha256.json').read_text(encoding='utf-8'))
     for name, expected in manifest.items():
         path = root / 'fixtures' / name
         if not path.resolve().is_relative_to((root / 'fixtures').resolve()) or sha256(path) != expected:
             raise ValueError('Fixture hash mismatch: ' + name)
     gray = np.load(root / 'fixtures/input_gray.npy', allow_pickle=False)
     original = np.load(root / 'fixtures/original_frozen_mask.npy', allow_pickle=False)
-    for name, expected in json.loads((root / 'config/SHA256.json').read_text(encoding='utf-8')).items():
+    for name, expected in json.loads((root / 'config/sha256.json').read_text(encoding='utf-8')).items():
         path = root / 'config' / name
         if not path.resolve().is_relative_to((root / 'config').resolve()) or sha256(path) != expected:
             raise ValueError('Configuration hash mismatch: ' + name)

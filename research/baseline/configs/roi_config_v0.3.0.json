@@ -1,6 +1,6 @@
 {
   "version": "0.3.0",
-  "note": "Portable S01 software baseline. Thresholds retained from development calibration; no FPGA backend yet.",
+  "note": "Portable s01 software baseline. Thresholds retained from development calibration; no FPGA backend yet.",
   "input_size": [
     2533,
     1900
@@ -8,7 +8,7 @@
   "coordinate_system": "pixel_xyxy_leftclosed",
   "alignment": {
     "method": "orb_ransac",
-    "reference_image": "../data/raw/S01/S01_B01_1.jpg",
+    "reference_image": "../data/raw/s01/s01_b01_1.jpg",
     "max_shift_px": 160
   },
   "rois": {
@@ -304,6 +304,6 @@
     "rotated_180 is not implemented",
     "tilt tasks return uncertain",
     "lifted tasks are inactive",
-    "S01 is development data, not independent test data"
+    "s01 is development data, not independent test data"
   ]
 }

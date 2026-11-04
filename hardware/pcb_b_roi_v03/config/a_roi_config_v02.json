@@ -1,7 +1,7 @@
 {
   "version": "0.2.0",
   "note": "A成员参考算法ROI配置，坐标基于 B01_1 参考图；坐标系为像素 (x0,y0,x1,y1) 左闭右开，图像数组 image[y,x]。",
-  "reference_image": "S01_B01_1.jpg",
+  "reference_image": "s01_b01_1.jpg",
   "input_size": [
     2533,
     1900
@@ -9,7 +9,7 @@
   "coordinate_system": "pixel_xyxy_leftclosed",
   "alignment": {
     "method": "phase_correlation",
-    "reference_image": "S01_B01_1.jpg",
+    "reference_image": "s01_b01_1.jpg",
     "downscale_width": 640,
     "max_shift_px": 160
   },
@@ -33,7 +33,7 @@
       "source": "manual_grid_tight",
       "feature": "sad",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "U2": {
       "box": [
@@ -50,7 +50,7 @@
       "source": "manual_grid_tight",
       "feature": "area_inv",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "U5": {
       "box": [
@@ -67,7 +67,7 @@
       "source": "manual_grid_tight",
       "feature": "cd40",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "C14": {
       "box": [
@@ -120,7 +120,7 @@
       "source": "auto",
       "feature": "cd40",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "X2": {
       "box": [
@@ -137,7 +137,7 @@
       "source": "auto",
       "feature": "cd40",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "SW2": {
       "box": [
@@ -154,7 +154,7 @@
       "source": "auto",
       "feature": "area_inv",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "MIC1": {
       "box": [
@@ -171,7 +171,7 @@
       "source": "auto",
       "feature": "hcorr",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "U3": {
       "box": [
@@ -188,7 +188,7 @@
       "source": "auto",
       "feature": "hcorr",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "U6": {
       "box": [
@@ -205,7 +205,7 @@
       "source": "auto",
       "feature": "sad",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "U4": {
       "box": [
@@ -222,7 +222,7 @@
       "source": "diff_bbox_auto",
       "feature": "sad",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "C8": {
       "box": [
@@ -265,7 +265,7 @@
       "source": "auto",
       "feature": "hcorr",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "C13": {
       "box": [
@@ -282,7 +282,7 @@
       "source": "auto",
       "feature": "cd40",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "L2": {
       "box": [
@@ -299,7 +299,7 @@
       "source": "auto",
       "feature": "sad",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "C20": {
       "box": [
@@ -316,7 +316,7 @@
       "source": "auto",
       "feature": "sad",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "LED7": {
       "box": [
@@ -336,8 +336,8 @@
       "active": false,
       "display": true,
       "status_map": {"B02": "missing"},
-      "note": "B02 真实缺件（器件清单/样板状态表/微距特写 LED0.jpg 证实）。S01 全景照片无法可靠自动判定（42px 小器件，cd40/sad/hcorr/NCC 特征在有件板与缺件板间重叠，18 张证据见 results/led58_feat_all.txt）；判定已由微距特写完成（results/batch_detect_S01_led58_closeup.csv），此 ROI 仅用于标注显示，不参与自动判定",
-      "tpl_ref": "S01_B01_1.jpg"
+      "note": "B02 真实缺件（器件清单/样板状态表/微距特写 LED0.jpg 证实）。s01 全景照片无法可靠自动判定（42px 小器件，cd40/sad/hcorr/NCC 特征在有件板与缺件板间重叠，18 张证据见 results/led58_feat_all.txt）；判定已由微距特写完成（results/batch_detect_s01_led58_closeup.csv），此 ROI 仅用于标注显示，不参与自动判定",
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "LED5": {
       "box": [
@@ -358,7 +358,7 @@
       "display": true,
       "status_map": {"B02": "missing"},
       "note": "B02 真实缺件（器件清单/样板状态表/微距特写 LED0.jpg 证实）。判定已由微距特写完成，此 ROI 仅用于标注显示，不参与自动判定",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     }
   },
   "detect_tasks": {
@@ -392,7 +392,7 @@
     "焊反：U1、U5 均焊反确认（U1=实物核对 2026-10-25、U5=DNG 圆点）；JPEG 自动检测不可靠（U1 方向差法误判、U5 圆点法 3~5px+阴影），可靠路径=DNG 圆点法或特写；S02 重拍时补 U1/U5 特写验证",
     "倾斜：B06 C14/C17/C24 自动测角在现有照片上不可行（8 种方法），待实物角度或补拍微距",
     "翘起（C8/C25/C32）本轮不处理（用户决定），ROI 已停用 active=false",
-    "弱分离（X2/U6/R12）：2026-10-25 四特征分析确认 S01 内当前特征全部可判（X2 cd40 分离度 2.10 / U6 sad 1.85 / R12 hcorr 1.80，2σ重叠≈0）；收紧 ROI 实验无效（模板同步收紧，分离度不升反降 1.72）。加固留待 S02 数据验证（results/weak_analysis.txt）",
-    "LED5/LED7 补测（2026-10-27）：B02 真实缺件含 LED7、LED5。①人工补测已完成：B02 三张×2 位号=6 个 missing、其余板 30 个 present，判定依据=器件清单+样板状态表+8x 高清特写空焊盘核实，结果表 results/batch_detect_S01_led58.csv；②S01 全景照片自动判定不可靠（8 种特征×18 张全验证，results/led58_feat_all.txt 与 results/led_pix_out.txt，cd40/sad/hcorr/NCC/dark/bright/std 全部在有件板与 B02 间重叠，根因=42×16px 小器件+5~40px 对齐残差+板间光照差）；③ROI 已按 B01 丝印+器件本体定好（LED7 [722,528,790,553]、LED5 [918,532,960,554] 器件本体；判定框 [715,524,799,590]/[915,530,965,555]）并加入配置 active=false；④S02 重拍时补 LED5/LED7 微距特写（10cm 内、器件占画面≥100px）后激活 ROI 自动判定"
+    "弱分离（X2/U6/R12）：2026-10-25 四特征分析确认 s01 内当前特征全部可判（X2 cd40 分离度 2.10 / U6 sad 1.85 / R12 hcorr 1.80，2σ重叠≈0）；收紧 ROI 实验无效（模板同步收紧，分离度不升反降 1.72）。加固留待 S02 数据验证（results/weak_analysis.txt）",
+    "LED5/LED7 补测（2026-10-27）：B02 真实缺件含 LED7、LED5。①人工补测已完成：B02 三张×2 位号=6 个 missing、其余板 30 个 present，判定依据=器件清单+样板状态表+8x 高清特写空焊盘核实，结果表 results/batch_detect_s01_led58.csv；②s01 全景照片自动判定不可靠（8 种特征×18 张全验证，results/led58_feat_all.txt 与 results/led_pix_out.txt，cd40/sad/hcorr/NCC/dark/bright/std 全部在有件板与 B02 间重叠，根因=42×16px 小器件+5~40px 对齐残差+板间光照差）；③ROI 已按 B01 丝印+器件本体定好（LED7 [722,528,790,553]、LED5 [918,532,960,554] 器件本体；判定框 [715,524,799,590]/[915,530,965,555]）并加入配置 active=false；④S02 重拍时补 LED5/LED7 微距特写（10cm 内、器件占画面≥100px）后激活 ROI 自动判定"
   ]
 }

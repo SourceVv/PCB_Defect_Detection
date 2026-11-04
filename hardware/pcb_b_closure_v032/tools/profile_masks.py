@@ -152,7 +152,7 @@ def main():
     args = parser.parse_args()
     if not re.fullmatch('20261101_[a-f0-9]{8}', args.run_id):
         raise ValueError('Expected run ID 20261101_<8 lowercase hex>')
-    manifests = [manifest_check(ROOT, 'NEW_PACKAGE_MANIFEST.json'), manifest_check(args.package, 'PACKAGE_MANIFEST.json')]
+    manifests = [manifest_check(ROOT, 'new_package_manifest.json'), manifest_check(args.package, 'package_manifest.json')]
     if not args.execute:
         print(json.dumps({'state': 'plan_only', 'hardware_executed': False, 'environment': environment(), 'warmups': 3, 'measured_per_candidate': 10, 'manifests': manifests}, ensure_ascii=False, indent=2))
         return 0

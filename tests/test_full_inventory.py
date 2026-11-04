@@ -10,7 +10,7 @@ from pcb_app.backend import BoardThreshold
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
-REFERENCE = (DATA/'reference/B01_reference.png').read_bytes()
+REFERENCE = (DATA/'reference/b01_reference.png').read_bytes()
 
 
 class Driver:
@@ -44,7 +44,7 @@ class Tests(unittest.TestCase):
         self.temp.cleanup()
 
     def test_inventory_and_known_defects(self):
-        result = self.session.inspect((DATA/'development/S01/B02_S01_001.png').read_bytes())
+        result = self.session.inspect((DATA/'development/s01/b02_s01_001.png').read_bytes())
         self.assertEqual(len(result['items']),len(self.session.rows))
         self.assertGreater(len(result['items']),90)
         names = {i['refdes']:i for i in result['items']}
@@ -83,7 +83,7 @@ class Tests(unittest.TestCase):
         hwroot = ROOT / 'hardware'
         backend = BoardThreshold(hwroot,bindings=(lambda *a,**k:Driver(),Service))
         self.session.backend = backend
-        result = self.session.inspect((DATA/'development/S01/B02_S01_001.png').read_bytes())
+        result = self.session.inspect((DATA/'development/s01/b02_s01_001.png').read_bytes())
         self.assertEqual(len(result['items']),len(self.session.rows))
         self.assertEqual(result['backend'],'FPGA threshold with ARM geometry')
         self.assertIsNotNone(result['operator']['mask'])

@@ -455,7 +455,7 @@ class ComponentVision:
             values = marker(aligned, box, center)
             expected, opposite = (values[0][0], values[1][0])
             shape_state, shape_margin, shape_scores = classify(orientation_feature(patch_for(aligned, box)), self.orientation_models[n])
-            item['orientation_evidence'] = {'expected_mark_response': expected, 'opposite_mark_response': opposite, 'shape_state': shape_state, 'shape_margin': shape_margin, 'method': 'local circular polarity mark with shape disagreement gate, calibrated on S01'}
+            item['orientation_evidence'] = {'expected_mark_response': expected, 'opposite_mark_response': opposite, 'shape_state': shape_state, 'shape_margin': shape_margin, 'method': 'local circular polarity mark with shape disagreement gate, calibrated on s01'}
             if expected < 3.0 and opposite > 3.0:
                 if shape_state == 'normal' and shape_margin > 0.18:
                     item.update(orientation='uncertain', status='uncertain', reason='芯片存在，但极性标记与封装方向特征不一致，需要复核')

@@ -28,7 +28,7 @@ def main():
     args = parser.parse_args()
     if not re.fullmatch('20261031_[a-f0-9]{8}', args.run_id):
         raise ValueError('Unexpected run ID')
-    manifest = json.loads((ROOT / 'PACKAGE_MANIFEST.json').read_text())
+    manifest = json.loads((ROOT / 'package_manifest.json').read_text())
     for item in manifest['files']:
         path = ROOT / item['path']
         if not path.resolve().is_relative_to(ROOT.resolve()):
@@ -47,7 +47,7 @@ def main():
     log_path = ROOT / 'evidence' / ('worker_' + args.run_id + '.log')
     if run_dir.exists() or notebook_path.exists() or status_path.exists():
         raise FileExistsError('Refusing to overwrite a previous run')
-    notebook = json.loads((ROOT / 'software/ROI_板上逐步验收.ipynb').read_text())
+    notebook = json.loads((ROOT / 'software/reference_document_16.ipynb').read_text())
     status = {'client_request_date': '2026-10-31', 'board_utc': datetime.now(timezone.utc).isoformat(), 'pid': os.getpid(), 'uid': os.geteuid(), 'run_id': args.run_id, 'run_directory': str(run_dir), 'notebook': str(notebook_path), 'engine': 'same ABI3 notebook cells in dedicated board Python process', 'expected_dma_cases': 8, 'XILINX_XRT': os.environ.get('XILINX_XRT'), 'state': 'starting', 'code_cell': 0, 'hardware_attempted': False}
 
     def save():

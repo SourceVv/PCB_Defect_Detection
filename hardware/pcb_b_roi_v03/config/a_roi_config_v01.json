@@ -1,7 +1,7 @@
 {
   "version": "0.1.0",
   "note": "A成员参考算法ROI配置，坐标基于 B01_1 参考图；坐标系为像素 (x0,y0,x1,y1) 左闭右开，图像数组 image[y,x]。",
-  "reference_image": "S01_B01_1.jpg",
+  "reference_image": "s01_b01_1.jpg",
   "input_size": [
     2533,
     1900
@@ -9,7 +9,7 @@
   "coordinate_system": "pixel_xyxy_leftclosed",
   "alignment": {
     "method": "phase_correlation",
-    "reference_image": "S01_B01_1.jpg",
+    "reference_image": "s01_b01_1.jpg",
     "downscale_width": 640,
     "max_shift_px": 160
   },
@@ -33,7 +33,7 @@
       "source": "manual_grid_tight",
       "feature": "sad",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "U2": {
       "box": [
@@ -50,7 +50,7 @@
       "source": "manual_grid_tight",
       "feature": "area_inv",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "U5": {
       "box": [
@@ -67,7 +67,7 @@
       "source": "manual_grid_tight",
       "feature": "cd40",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "C14": {
       "box": [
@@ -120,7 +120,7 @@
       "source": "auto",
       "feature": "cd40",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "X2": {
       "box": [
@@ -137,7 +137,7 @@
       "source": "auto",
       "feature": "cd40",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "SW2": {
       "box": [
@@ -154,7 +154,7 @@
       "source": "auto",
       "feature": "area_inv",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "MIC1": {
       "box": [
@@ -171,7 +171,7 @@
       "source": "auto",
       "feature": "hcorr",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "U3": {
       "box": [
@@ -188,7 +188,7 @@
       "source": "auto",
       "feature": "hcorr",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "U6": {
       "box": [
@@ -205,7 +205,7 @@
       "source": "auto",
       "feature": "sad",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "C8": {
       "box": [
@@ -248,7 +248,7 @@
       "source": "auto",
       "feature": "hcorr",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "C13": {
       "box": [
@@ -265,7 +265,7 @@
       "source": "auto",
       "feature": "cd40",
       "op": "<",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "L2": {
       "box": [
@@ -282,7 +282,7 @@
       "source": "auto",
       "feature": "sad",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     },
     "C20": {
       "box": [
@@ -299,7 +299,7 @@
       "source": "auto",
       "feature": "sad",
       "op": ">",
-      "tpl_ref": "S01_B01_1.jpg"
+      "tpl_ref": "s01_b01_1.jpg"
     }
   },
   "detect_tasks": {

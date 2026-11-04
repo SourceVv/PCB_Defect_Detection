@@ -30,17 +30,17 @@
   },
   "manifests": [
     {
-      "path": "/home/xilinx/jupyter_notebooks/pcb_b_closure_v032/NEW_PACKAGE_MANIFEST.json",
+      "path": "/home/xilinx/jupyter_notebooks/pcb_b_closure_v032/new_package_manifest.json",
       "sha256": "f0d7adae6fd87dc900341fec582a174f8fd3f18248a53990ac8669023892ddb0",
       "files_verified": 5
     },
     {
-      "path": "/home/xilinx/jupyter_notebooks/pcb_b_roi_v03/PACKAGE_MANIFEST.json",
+      "path": "/home/xilinx/jupyter_notebooks/pcb_b_roi_v03/package_manifest.json",
       "sha256": "d8fa2acdd46590f1c16ce6a45b757385ccf7080bd928b58937b122a66974a06f",
       "files_verified": 138
     },
     {
-      "path": "/home/xilinx/jupyter_notebooks/pcb_b_integration_v031/NEW_PACKAGE_MANIFEST.json",
+      "path": "/home/xilinx/jupyter_notebooks/pcb_b_integration_v031/new_package_manifest.json",
       "sha256": "9bfc8d2d616824339b01f1e95e8be13ff772e3362bb5a60059039dafeeb4e8a5",
       "files_verified": 13
     }

@@ -753,7 +753,7 @@ proc create_root_design { parentCell } {
   connect_bd_intf_net -intf_net axi_ctrl_M02_AXI [get_bd_intf_pins axi_ctrl/M02_AXI] [get_bd_intf_pins axi_gpio_cfg/S_AXI]
   connect_bd_intf_net -intf_net axi_dma_0_M_AXIS_MM2S [get_bd_intf_pins axi_dma_0/M_AXIS_MM2S] [get_bd_intf_pins axis_roi_threshold_stats_0/S_AXIS]
   connect_bd_intf_net -intf_net axi_dma_0_M_AXI_MM2S [get_bd_intf_pins axi_dma_0/M_AXI_MM2S] [get_bd_intf_pins axi_mem/S00_AXI]
-  connect_bd_intf_net -intf_net axi_dma_0_M_AXI_S2MM [get_bd_intf_pins axi_dma_0/M_AXI_S2MM] [get_bd_intf_pins axi_mem/S01_AXI]
+  connect_bd_intf_net -intf_net axi_dma_0_M_AXI_S2MM [get_bd_intf_pins axi_dma_0/M_AXI_S2MM] [get_bd_intf_pins axi_mem/s01_AXI]
   connect_bd_intf_net -intf_net axi_mem_M00_AXI [get_bd_intf_pins axi_mem/M00_AXI] [get_bd_intf_pins ps7/S_AXI_HP0]
   connect_bd_intf_net -intf_net axis_roi_threshold_stats_0_M_AXIS [get_bd_intf_pins axis_roi_threshold_stats_0/M_AXIS] [get_bd_intf_pins axi_dma_0/S_AXIS_S2MM]
   connect_bd_intf_net -intf_net ps7_DDR [get_bd_intf_ports DDR] [get_bd_intf_pins ps7/DDR]
@@ -788,7 +788,7 @@ proc create_root_design { parentCell } {
   [get_bd_pins axi_ctrl/M02_ACLK] \
   [get_bd_pins axi_mem/ACLK] \
   [get_bd_pins axi_mem/S00_ACLK] \
-  [get_bd_pins axi_mem/S01_ACLK] \
+  [get_bd_pins axi_mem/s01_ACLK] \
   [get_bd_pins axi_mem/M00_ACLK] \
   [get_bd_pins axis_roi_threshold_stats_0/aclk]
   connect_bd_net -net ps7_FCLK_RESET0_N  [get_bd_pins ps7/FCLK_RESET0_N] \
@@ -802,7 +802,7 @@ proc create_root_design { parentCell } {
   [get_bd_pins axi_ctrl/M01_ARESETN] \
   [get_bd_pins axi_ctrl/M02_ARESETN] \
   [get_bd_pins axi_mem/S00_ARESETN] \
-  [get_bd_pins axi_mem/S01_ARESETN] \
+  [get_bd_pins axi_mem/s01_ARESETN] \
   [get_bd_pins axi_mem/M00_ARESETN] \
   [get_bd_pins axi_dma_0/axi_resetn] \
   [get_bd_pins axi_gpio_ctrl/s_axi_aresetn] \

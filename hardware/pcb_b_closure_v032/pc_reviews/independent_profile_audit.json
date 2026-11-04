@@ -69,12 +69,12 @@
     "closure": {
       "sha256": "f0d7adae6fd87dc900341fec582a174f8fd3f18248a53990ac8669023892ddb0",
       "files_verified": 5,
-      "name": "NEW_PACKAGE_MANIFEST.json"
+      "name": "new_package_manifest.json"
     },
     "frozen": {
       "sha256": "d8fa2acdd46590f1c16ce6a45b757385ccf7080bd928b58937b122a66974a06f",
       "files_verified": 138,
-      "name": "PACKAGE_MANIFEST.json"
+      "name": "package_manifest.json"
     }
   },
   "reported_environment": {

@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "pcb-inspection"
 version = "0.3.0"
 description = "Reproducible fixed-board PCB inspection software baseline"
-readme = "README.md"
+readme = "readme.md"
 requires-python = ">=3.11,<3.15"
 dependencies = ["numpy>=1.26,<3", "opencv-python>=4.10,<6"]
 

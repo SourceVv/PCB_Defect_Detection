@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 *.egg-info/
-build/
+build/generated/
 dist/
 runtime/
 inspection_results/

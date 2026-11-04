@@ -13,7 +13,7 @@ from pcb_inspection.golden import compare_mask, generate, threshold_mask, verify
 from pcb_inspection.io import read_image, write_image
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG = ROOT / 'configs/roi_config.json'
-RAW = ROOT / 'data/raw/S01'
+RAW = ROOT / 'data/raw/s01'
 
 class CoreTests(unittest.TestCase):
 
@@ -21,7 +21,7 @@ class CoreTests(unittest.TestCase):
         self.config = core.load_config(CONFIG)
 
     def test_reference_is_config_relative(self):
-        self.assertEqual(core.reference_path(self.config), (RAW / 'S01_B01_1.jpg').resolve())
+        self.assertEqual(core.reference_path(self.config), (RAW / 's01_b01_1.jpg').resolve())
 
     def test_invalid_images_are_not_classified(self):
         result, _ = core.detect(np.full((1900, 2533, 3), 255, np.uint8), self.config)
@@ -33,7 +33,7 @@ class CoreTests(unittest.TestCase):
             core.detect(np.zeros((20, 20), np.uint8), self.config, backend='fpga')
 
     def test_unimplemented_tasks_are_uncertain(self):
-        result, _ = core.detect(read_image(RAW / 'S01_B01_1.jpg'), self.config)
+        result, _ = core.detect(read_image(RAW / 's01_b01_1.jpg'), self.config)
         tilt = [x for x in result['items'] if x['task'] == 'tilt']
         self.assertEqual(len(tilt), 3)
         self.assertTrue(all((x['status'] == 'uncertain' for x in tilt)))
@@ -123,7 +123,7 @@ class DataTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             temp = Path(temp)
             (temp / 'raw').mkdir()
-            shutil.copy2(RAW / 'S01_B01_1.jpg', temp / 'raw/S01_B01_1.jpg')
+            shutil.copy2(RAW / 's01_b01_1.jpg', temp / 'raw/s01_b01_1.jpg')
             (temp / 'truth.csv').write_text('filename,refdes,state\n', encoding='utf-8')
             with self.assertRaisesRegex(ValueError, 'Truth coverage mismatch'):
                 evaluate(core.load_config(CONFIG), temp / 'raw', temp / 'truth.csv', temp / 'out')
