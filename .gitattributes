@@ -1,5 +1,1 @@
-* text=auto
-*.png binary
-*.jpg binary
-*.bit binary
-*.pdf binary
+* -text
